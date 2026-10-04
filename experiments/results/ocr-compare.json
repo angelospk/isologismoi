@@ -1,0 +1,261 @@
+[
+  {
+    "pdf": "54414421000_2024_isologismos",
+    "kind": "synthetic",
+    "engine": "paddle",
+    "seconds": 5.63,
+    "expected": 6,
+    "anchored": 6,
+    "wrong": [],
+    "missing": [],
+    "forbidden": [],
+    "context_match": true,
+    "error": null,
+    "values": {
+      "total_assets": 1109512.73,
+      "equity": 135370.23,
+      "turnover": 339878.25,
+      "pre_tax_profit": -29755.57,
+      "net_profit": -29755.57,
+      "ebitda": -3900.02
+    },
+    "notes": [
+      "low-confidence header on page 1; table not read"
+    ]
+  },
+  {
+    "pdf": "54414421000_2024_isologismos",
+    "kind": "synthetic",
+    "engine": "tesseract",
+    "seconds": 3.36,
+    "expected": 6,
+    "anchored": 5,
+    "wrong": [],
+    "missing": [
+      "net_profit"
+    ],
+    "forbidden": [],
+    "context_match": true,
+    "error": null,
+    "values": {
+      "total_assets": 1109512.73,
+      "equity": 135370.23,
+      "turnover": 339878.25,
+      "pre_tax_profit": -29755.57,
+      "ebitda": -3900.02
+    },
+    "notes": []
+  },
+  {
+    "pdf": "026496140000_x_5504505",
+    "kind": "synthetic",
+    "engine": "paddle",
+    "seconds": 4.36,
+    "expected": 6,
+    "anchored": 6,
+    "wrong": [],
+    "missing": [],
+    "forbidden": [],
+    "context_match": true,
+    "error": null,
+    "values": {
+      "total_assets": 26367267.0,
+      "equity": 11934096.0,
+      "turnover": 25521800.0,
+      "ebit": 1430184.0,
+      "pre_tax_profit": 946616.0,
+      "net_profit": 726666.0
+    },
+    "notes": [
+      "low-confidence header on page 2; table not read",
+      "low-confidence header on page 3; table not read",
+      "low-confidence header on page 4; table not read",
+      "ebitda: not derived, missing interest,depreciation"
+    ]
+  },
+  {
+    "pdf": "026496140000_x_5504505",
+    "kind": "synthetic",
+    "engine": "tesseract",
+    "seconds": 3.01,
+    "expected": 6,
+    "anchored": 3,
+    "wrong": [],
+    "missing": [
+      "turnover",
+      "total_assets",
+      "equity"
+    ],
+    "forbidden": [],
+    "context_match": true,
+    "error": null,
+    "values": {
+      "ebit": 1430184.0,
+      "pre_tax_profit": 946616.0,
+      "net_profit": 726666.0
+    },
+    "notes": [
+      "total_assets 26567267.0 != equity+total_liabilities 26369267.0",
+      "ebitda: not derived, missing interest,depreciation"
+    ]
+  },
+  {
+    "pdf": "000306201000_x_6094252",
+    "kind": "synthetic",
+    "engine": "paddle",
+    "seconds": 4.83,
+    "expected": 3,
+    "anchored": 3,
+    "wrong": [],
+    "missing": [],
+    "forbidden": [],
+    "context_match": true,
+    "error": null,
+    "values": {
+      "turnover": 205619000.0,
+      "pre_tax_profit": 8411000.0,
+      "net_profit": 6363000.0
+    },
+    "notes": [
+      "total_assets 121262000.0 != equity+liabilities 104799000.0",
+      "ebitda: not derived, missing interest,depreciation"
+    ]
+  },
+  {
+    "pdf": "000306201000_x_6094252",
+    "kind": "synthetic",
+    "engine": "tesseract",
+    "seconds": 3.16,
+    "expected": 3,
+    "anchored": 0,
+    "wrong": [],
+    "missing": [
+      "turnover",
+      "pre_tax_profit",
+      "net_profit"
+    ],
+    "forbidden": [],
+    "context_match": false,
+    "error": null,
+    "values": {},
+    "notes": [
+      "no column header year [2025] matches the reporting periods [2026] named in the text"
+    ]
+  },
+  {
+    "pdf": "010033253000_x_5567261",
+    "kind": "synthetic",
+    "engine": "paddle",
+    "seconds": 5.53,
+    "expected": 5,
+    "anchored": 0,
+    "wrong": [],
+    "missing": [
+      "turnover",
+      "pre_tax_profit",
+      "net_profit",
+      "total_assets",
+      "equity"
+    ],
+    "forbidden": [],
+    "context_match": false,
+    "error": null,
+    "values": {},
+    "notes": [
+      "total_assets: no usable column header on page 2",
+      "equity: no usable column header on page 3",
+      "total_liabilities: no usable column header on page 3",
+      "total_equity_and_liabilities: no usable column header on page 3",
+      "turnover: no usable column header on page 4",
+      "ebit: no usable column header on page 4",
+      "interest: no usable column header on page 4",
+      "pre_tax_profit: no usable column header on page 4",
+      "net_profit: no usable column header on page 4",
+      "low-confidence header on page 4; table not read",
+      "ebitda: not derived, missing pre_tax_profit,interest,depreciation"
+    ]
+  },
+  {
+    "pdf": "010033253000_x_5567261",
+    "kind": "synthetic",
+    "engine": "tesseract",
+    "seconds": 3.61,
+    "expected": 5,
+    "anchored": 5,
+    "wrong": [],
+    "missing": [],
+    "forbidden": [],
+    "context_match": true,
+    "error": null,
+    "values": {
+      "total_assets": 67845953.3,
+      "equity": 11220675.98,
+      "turnover": 86392297.53,
+      "ebit": 6750393.08,
+      "pre_tax_profit": 4713487.34,
+      "net_profit": 3189818.83
+    },
+    "notes": [
+      "ebitda: not derived, missing depreciation"
+    ]
+  },
+  {
+    "pdf": "000854801000_2026_xl_ae",
+    "kind": "real",
+    "engine": "paddle",
+    "seconds": 49.83,
+    "expected": 4,
+    "anchored": 4,
+    "wrong": [],
+    "missing": [],
+    "forbidden": [],
+    "context_match": true,
+    "error": null,
+    "values": {
+      "total_assets": 185848557.0,
+      "equity": 185659262.0,
+      "pre_tax_profit": 4947477.0,
+      "net_profit": 3424732.0
+    },
+    "notes": [
+      "low-confidence header on page 4; table not read",
+      "low-confidence header on page 4; table not read",
+      "low-confidence header on page 8; table not read",
+      "low-confidence header on page 9; table not read",
+      "low-confidence header on page 15; table not read",
+      "low-confidence header on page 16; table not read",
+      "low-confidence header on page 17; table not read",
+      "low-confidence header on page 20; table not read",
+      "low-confidence header on page 21; table not read",
+      "low-confidence header on page 25; table not read",
+      "low-confidence header on page 26; table not read",
+      "low-confidence header on page 26; table not read",
+      "low-confidence header on page 30; table not read",
+      "ebitda: not derived, missing interest,depreciation"
+    ]
+  },
+  {
+    "pdf": "000854801000_2026_xl_ae",
+    "kind": "real",
+    "engine": "tesseract",
+    "seconds": 23.07,
+    "expected": 4,
+    "anchored": 3,
+    "wrong": [
+      "net_profit"
+    ],
+    "missing": [],
+    "forbidden": [],
+    "context_match": true,
+    "error": null,
+    "values": {
+      "total_assets": 185848557.0,
+      "equity": 185659262.0,
+      "pre_tax_profit": 4947477.0,
+      "net_profit": 9424732.0
+    },
+    "notes": [
+      "ebitda: not derived, missing interest,depreciation"
+    ]
+  }
+]
