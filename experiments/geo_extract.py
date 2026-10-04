@@ -255,7 +255,8 @@ def _page_unit(rows, page_norm, doc_unit_mentioned):
     return None
 
 
-def extract_pages(pages, page_texts=None, target_scope="company"):
+def extract_pages(pages, page_texts=None, target_scope="company", year_offset=0):
+    """year_offset=1 reads the comparative (prior-year) column instead. For evaluation only."""
     notes = []
     page_texts = page_texts or [" ".join(w["text"] for w in p["words"]) for p in pages]
     full_text = "\n".join(page_texts)
@@ -365,7 +366,8 @@ def extract_pages(pages, page_texts=None, target_scope="company"):
             if cols is None:
                 notes.append(f"{key}: no usable column header on page {page_index + 1}")
                 continue
-            target = [i for i, (y, _, s) in enumerate(cols) if y == fiscal_year and s in TARGETS[target_scope]]
+            target = [i for i, (y, _, s) in enumerate(cols)
+                      if y == fiscal_year - year_offset and s in TARGETS[target_scope]]
             if len(target) != 1:
                 notes.append(f"{key}: no single {target_scope} column for {fiscal_year} on page {page_index + 1}")
                 continue

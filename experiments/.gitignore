@@ -10,3 +10,4 @@ results/*.docling.json
 synthetic-scans/
 esef-cache/
 heldout-cache/
+elp-cache/

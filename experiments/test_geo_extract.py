@@ -247,3 +247,8 @@ def test_group_target_reads_the_group_column_and_company_target_ignores_a_group_
                       line(120, "Κύκλος εργασιών", ["900,00", "800,00"]))
     assert extract_pages([group_page[0]], [group_page[1]], target_scope="group")["figures"]["turnover"]["value"] == 900
     assert "turnover" not in run(group_page)["figures"]
+
+
+def test_year_offset_reads_the_comparative_column():
+    p = page(two_cols(), line(120, "Κύκλος εργασιών", ["900,00", "800,00"]))
+    assert extract_pages([p[0]], [p[1]], year_offset=1)["figures"]["turnover"]["value"] == 800
