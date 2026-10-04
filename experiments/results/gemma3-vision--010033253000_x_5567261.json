@@ -1,0 +1,9 @@
+{
+  "pdf": "010033253000_x_5567261.pdf",
+  "backend": "gemma3-vision",
+  "seconds": 173.21031996500096,
+  "api_cost_eur": 0,
+  "prediction": null,
+  "metrics": null,
+  "error": "JSONDecodeError: Unterminated string starting at: line 1 column 1462 (char 1461)"
+}

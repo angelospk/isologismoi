@@ -1,0 +1,82 @@
+[
+  {
+    "page": 14,
+    "seconds": 83.98631077900063,
+    "candidate": {
+      "status": "needs_review",
+      "fiscal_year": 2024,
+      "scope": [
+        "Κύκλος εργασιών",
+        "Μικτή Κέρδη"
+      ],
+      "currency": "EUR",
+      "unit_multiplier": 1,
+      "figures": [
+        {
+          "value": "205.619",
+          "raw_text": "205.619",
+          "label": "Κύκλος εργασιών",
+          "confidence": 0.95
+        },
+        {
+          "value": "174.063",
+          "raw_text": "174.063",
+          "label": "Κύκλος εργασιών",
+          "confidence": 0.95
+        },
+        {
+          "value": "38.207",
+          "raw_text": "38.207",
+          "label": "Μικτή Κέρδη",
+          "confidence": 0.95
+        },
+        {
+          "value": "305.933",
+          "raw_text": "305.933",
+          "label": "Μικτή Κέρδη",
+          "confidence": 0.95
+        },
+        {
+          "value": "(26.773)",
+          "raw_text": "(26.773)",
+          "label": "Έσοδα διαχείρισης και διάθεση",
+          "confidence": 0.95
+        },
+        {
+          "value": "(24.938)",
+          "raw_text": "(24.938)",
+          "label": "Έσοδα διαχείρισης και διάθεση",
+          "confidence": 0.95
+        },
+        {
+          "value": "571",
+          "raw_text": "571",
+          "label": "Έσοδα από επενδύσεις",
+          "confidence": 0.95
+        },
+        {
+          "value": "451",
+          "raw_text": "451",
+          "label": "Έσοδα από επενδύσεις",
+          "confidence": 0.95
+        },
+        {
+          "value": "(5.535)",
+          "raw_text": "(5.535)",
+          "label": "Απομειώσεις Εξοπλισμού",
+          "confidence": 0.95
+        },
+        {
+          "value": "(23.907)",
+          "raw_text": "(23.907)",
+          "label": "Απομειώσεις Εξοπλισμού",
+          "confidence": 0.95
+        }
+      ],
+      "reason": "The table contains data for 2024 and 2023. The scope is limited to the provided columns. Figures are in EUR."
+    },
+    "prompt_tokens": 439,
+    "output_tokens": 474,
+    "done_reason": "stop"
+  }
+]

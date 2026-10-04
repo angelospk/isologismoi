@@ -1,0 +1,9 @@
+.venv*/
+.wheelhouse/
+research-sources/
+*.log
+*.exit
+__pycache__/
+.pytest_cache/
+results/*.docling.json
+

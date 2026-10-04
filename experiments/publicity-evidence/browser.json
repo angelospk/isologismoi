@@ -1,0 +1,36 @@
+{
+  "browser": "T3 collaborative preview",
+  "gemi": "194123801000",
+  "company": "STRIDE Ι.Κ.Ε.",
+  "search": "POST /api/search observed in resource timing (body not captured)",
+  "autocomplete": "GET /api/autocomplete/194123801000",
+  "details": {
+    "method": "POST",
+    "url": "/api/company/details",
+    "bodyKeys": [
+      "query",
+      "token",
+      "language"
+    ],
+    "status": 200,
+    "responseKeys": [
+      "companyInfo"
+    ]
+  },
+  "cookieNames": [
+    "_ga_L7TS87DDSM",
+    "_ga",
+    "next-i18next"
+  ],
+  "captcha": "Google reCAPTCHA scripts present; details body includes token. Token value not collected or saved.",
+  "subagentAttempts": [
+    {
+      "model": "openai/gpt-6.1-sol",
+      "error": "provider 401 before work"
+    },
+    {
+      "model": "opencode/mimo-v2.6-flash-free",
+      "error": "provider rate limit before work"
+    }
+  ]
+}

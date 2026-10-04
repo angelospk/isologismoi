@@ -1,0 +1,52 @@
+[
+  {
+    "scenario": "Top 1.000 (seed)",
+    "companies": 1000,
+    "discovery_calls": 5,
+    "days_min_2": 0.23588235294117646,
+    "days_one_pdf_3": 0.35352941176470587,
+    "days_three_pdfs_5": 0.5888235294117647,
+    "days_3_at_11520": 0.2608506944444444,
+    "days_3_with_20pct_reserved": 0.44191176470588234
+  },
+  {
+    "scenario": "Ενεργές ΑΕ",
+    "companies": 53453,
+    "discovery_calls": 268,
+    "days_min_2": 12.608705882352941,
+    "days_one_pdf_3": 18.89729411764706,
+    "days_three_pdfs_5": 31.474470588235295,
+    "days_3_at_11520": 13.943315972222223,
+    "days_3_with_20pct_reserved": 23.621617647058823
+  },
+  {
+    "scenario": "ΑΕ/ΕΠΕ/ΙΚΕ — proxy καταθετών",
+    "companies": 181710,
+    "discovery_calls": 909,
+    "days_min_2": 42.862235294117646,
+    "days_one_pdf_3": 64.23988235294118,
+    "days_three_pdfs_5": 106.99517647058823,
+    "days_3_at_11520": 47.39921875,
+    "days_3_with_20pct_reserved": 80.29985294117647
+  },
+  {
+    "scenario": "Όλες οι ενεργές εγγραφές",
+    "companies": 1023685,
+    "discovery_calls": 5119,
+    "days_min_2": 241.46929411764705,
+    "days_one_pdf_3": 361.90282352941176,
+    "days_three_pdfs_5": 602.7698823529412,
+    "days_3_at_11520": 267.02899305555553,
+    "days_3_with_20pct_reserved": 452.3785294117647
+  },
+  {
+    "scenario": "Όλες οι καταστάσεις στο μοντέλο",
+    "companies": 1648180,
+    "discovery_calls": 8241,
+    "days_min_2": 388.7765882352941,
+    "days_one_pdf_3": 582.6801176470589,
+    "days_three_pdfs_5": 970.4871764705882,
+    "days_3_at_11520": 429.92890625,
+    "days_3_with_20pct_reserved": 728.3501470588235
+  }
+]

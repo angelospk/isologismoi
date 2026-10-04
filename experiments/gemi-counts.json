@@ -1,0 +1,22 @@
+{
+  "retrieved_at": "2026-10-04T19:52:51Z",
+  "data_updated_at": "2026-10-04T18:06:39.920Z",
+  "source": "https://statistics.businessportal.gr/demography/active",
+  "active": 1023685,
+  "all_statuses_same_model": 1648180,
+  "legal_forms": {
+    "AE": 53453,
+    "EPE": 18105,
+    "IKE": 110152,
+    "OE": 92525,
+    "EE": 87577,
+    "individual": 645777
+  },
+  "capital_companies_proxy": 181710,
+  "caveats": [
+    "Counts from official Power BI model, not authenticated OpenData totalCount.",
+    "Exact report filters include active status and default person/language filters; legal-form counts reproduced unchanged.",
+    "All-statuses total derived by removing only active-status condition, retaining remaining report filters.",
+    "AE/EPE/IKE sum is a target-population proxy; not the measured count of annual filings."
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "page": 13,
+    "seconds": 5.77235032900353,
+    "candidate": {
+      "status": "needs_review",
+      "fiscal_year": 2024,
+      "scope": "company",
+      "currency": "EUR",
+      "unit_multiplier": 1,
+      "reason": "The table contains multiple line items with varying labels and unclear relationships. It's difficult to determine the exact figures and their corresponding labels without further context. The year is 2024, but some values are for 2025.  The scope is company-only.",
+      "figures": {}
+    },
+    "prompt_tokens": 439,
+    "output_tokens": 97,
+    "done_reason": "stop"
+  },
+  {
+    "page": 14,
+    "seconds": 62.45429835599498,
+    "candidate": {
+      "status": "needs_review",
+      "fiscal_year": 2023,
+      "scope": "company",
+      "currency": "EUR",
+      "unit_multiplier": 1,
+      "reason": "The table shows data for a single company (Α.Β.Ε.Ε.) for the year 2023. The figures are in EUR and need further verification to confirm exact values and labels.",
+      "figures": {}
+    },
+    "prompt_tokens": 439,
+    "output_tokens": 81,
+    "done_reason": "stop"
+  }
+]
