@@ -42,8 +42,60 @@ def table_words(rows, top=0):
                 words.append(word(t,x,top+i*9,x+12,top+i*9+6))
     return words
 
+_OCR=None
+def ocr_words(path, index, dpi=200):
+    """Greek PP-OCRv5 word boxes via RapidOCR/ONNX, converted to PDF points. Local only."""
+    global _OCR
+    import numpy as np, pymupdf
+    from rapidocr import RapidOCR
+    from rapidocr.utils.typings import LangDet, LangRec, ModelType, OCRVersion
+    if _OCR is None:
+        _OCR=RapidOCR(params={"Rec.lang_type":LangRec.EL,"Rec.ocr_version":OCRVersion.PPOCRV5,
+                              "Rec.model_type":ModelType.MOBILE,"Det.lang_type":LangDet.CH,
+                              "Det.ocr_version":OCRVersion.PPOCRV5,"Det.model_type":ModelType.MOBILE,
+                              "Global.use_cls":False,"Global.log_level":"error"})
+    with pymupdf.open(path) as doc:
+        pix=doc[index].get_pixmap(dpi=dpi)
+    img=np.frombuffer(pix.samples,dtype=np.uint8).reshape(pix.h,pix.w,pix.n)[:,:,:3]
+    result=_OCR(img,return_word_box=True)
+    scale=72/dpi;words=[]
+    for line in result.word_results or ():
+        for item in line if isinstance(line,(tuple,list)) else ():
+            if not isinstance(item,(tuple,list)) or len(item)!=3:continue
+            text,score,box=item
+            if not box or not str(text).strip():continue
+            xs=[pt[0] for pt in box];ys=[pt[1] for pt in box]
+            words.append(dict(text=text.strip(),x0=min(xs)*scale,x1=max(xs)*scale,
+                              top=min(ys)*scale,bottom=max(ys)*scale,score=float(score)))
+    return words
+
+MAX_OCR_PAGES=40
+def geo(path, ocr=False):
+    import pdfplumber
+    sys.path.insert(0,str(ROOT/"experiments"))
+    import geo_extract
+    pages=[];texts=[];ocr_pages=0
+    with pdfplumber.open(path) as pdf:
+        for i,p in enumerate(pdf.pages):
+            text=p.extract_text() or ""
+            if len(text.strip())>=semantic.MIN_CHARS_PER_TEXT_PAGE or not ocr:
+                words=p.extract_words()
+            else:
+                ocr_pages+=1
+                if ocr_pages>MAX_OCR_PAGES:raise RuntimeError("too many pages to OCR")
+                words=ocr_words(path,i)
+                text=" ".join(w["text"] for w in words)
+            pages.append(dict(width=float(p.width),height=float(p.height),words=words))
+            texts.append(text)
+    if not ocr and len("".join(texts).strip())<semantic.MIN_TEXT_CHARS:
+        return semantic._refuse("no_text_layer")
+    out=geo_extract.extract_pages(pages,texts)
+    out["ocr_pages"]=ocr_pages
+    return out
+
 def backend(path, name):
     if name=="pdfplumber": return semantic.extract(path.read_bytes())
+    if name in ("geo","geo-ocr"): return geo(path,ocr=name=="geo-ocr")
     pages=pymupdf_pages(path)
     if name=="camelot-stream":
         import camelot
@@ -180,7 +232,7 @@ def run_one(path,name):
 
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument("--backend",choices=["pdfplumber","pymupdf","camelot-stream","docling","gemma3-vision","gemma3-vision-schema"])
+    ap.add_argument("--backend",choices=["pdfplumber","pymupdf","camelot-stream","docling","geo","geo-ocr","gemma3-vision","gemma3-vision-schema"])
     ap.add_argument("--pdf")
     ap.add_argument("--only",nargs="*")
     ap.add_argument("--timeout",type=int,default=240)

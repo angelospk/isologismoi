@@ -93,6 +93,52 @@
       "api_cost_eur_per_pdf": 0
     },
     {
+      "backend": "geo",
+      "pdfs": 7,
+      "real_pdfs": 6,
+      "errors": 0,
+      "empty_outputs": 3,
+      "original_expected": 12,
+      "original_correct": 12,
+      "original_anchored": 12,
+      "original_wrong": 0,
+      "confident_wrong": 0,
+      "fallback_expected": 12,
+      "fallback_correct": 8,
+      "fallback_anchored": 8,
+      "fallback_wrong": 0,
+      "fallback_confident_wrong": 0,
+      "forbidden_emissions": 0,
+      "metadata_matches": 5,
+      "status_matches": 5,
+      "seconds_mean": 2.7878459328577656,
+      "seconds_median": 0.20052272100292612,
+      "api_cost_eur_per_pdf": 0
+    },
+    {
+      "backend": "geo-ocr",
+      "pdfs": 7,
+      "real_pdfs": 6,
+      "errors": 0,
+      "empty_outputs": 2,
+      "original_expected": 12,
+      "original_correct": 12,
+      "original_anchored": 12,
+      "original_wrong": 0,
+      "confident_wrong": 0,
+      "fallback_expected": 12,
+      "fallback_correct": 12,
+      "fallback_anchored": 12,
+      "fallback_wrong": 0,
+      "fallback_confident_wrong": 0,
+      "forbidden_emissions": 0,
+      "metadata_matches": 4,
+      "status_matches": 4,
+      "seconds_mean": 12.22952530571534,
+      "seconds_median": 8.442929523997009,
+      "api_cost_eur_per_pdf": 0
+    },
+    {
       "backend": "pdfplumber",
       "pdfs": 7,
       "real_pdfs": 6,
@@ -264,6 +310,94 @@
         "correct": 0,
         "wrong": 0,
         "missing": 1
+      }
+    },
+    "geo": {
+      "turnover": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "total_assets": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "equity": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "ebit": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
+      },
+      "pre_tax_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "net_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "ebitda": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
+      }
+    },
+    "geo-ocr": {
+      "turnover": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "total_assets": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "equity": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "ebit": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
+      },
+      "pre_tax_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "net_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "ebitda": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
       }
     },
     "pdfplumber": {

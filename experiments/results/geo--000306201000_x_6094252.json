@@ -1,0 +1,141 @@
+{
+  "pdf": "000306201000_x_6094252.pdf",
+  "backend": "geo",
+  "seconds": 8.388921018995461,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "parsed",
+    "reason": null,
+    "ar_gemi": "000306201000",
+    "fiscal_year": 2025,
+    "unit_multiplier": 1000,
+    "currency": "EUR",
+    "scope": "company",
+    "figures": {
+      "turnover": {
+        "value": 205619000.0,
+        "page": 14,
+        "bbox": [
+          340.15,
+          194.8,
+          369.48,
+          203.8
+        ],
+        "page_width": 595.32,
+        "page_height": 842.04,
+        "label_matched": "Κύκλος εργασιών",
+        "raw_text": "205.619",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "pre_tax_profit": {
+        "value": 8411000.0,
+        "page": 14,
+        "bbox": [
+          349.15,
+          374.83,
+          369.48,
+          383.83
+        ],
+        "page_width": 595.32,
+        "page_height": 842.04,
+        "label_matched": "ΚΕΡΔΗ/(ΖΗΜΙΕΣ) ΠΡΟ ΦΟΡΩΝ ΕΙΣΟΔΗΜΑΤΟΣ",
+        "raw_text": "8.411",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "net_profit": {
+        "value": 6363000.0,
+        "page": 14,
+        "bbox": [
+          349.15,
+          404.01,
+          369.48,
+          413.01
+        ],
+        "page_width": 595.32,
+        "page_height": 842.04,
+        "label_matched": "ΚΑΘΑΡΑ ΚΕΡΔΗ/(ΖΗΜΙΕΣ)",
+        "raw_text": "6.363",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "total_assets": {
+        "value": 121262000.0,
+        "page": 16,
+        "bbox": [
+          384.43,
+          350.83,
+          413.76,
+          359.83
+        ],
+        "page_width": 595.32,
+        "page_height": 842.04,
+        "label_matched": "ΣΥΝΟΛΟ ΕΝΕΡΓΗΤΙΚΟΥ",
+        "raw_text": "121.262",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "equity": {
+        "value": 25709000.0,
+        "page": 16,
+        "bbox": [
+          388.99,
+          487.41,
+          413.76,
+          496.41
+        ],
+        "page_width": 595.32,
+        "page_height": 842.04,
+        "label_matched": "Σύνολο Καθαρής Θέσης",
+        "raw_text": "25.709",
+        "scope": "single",
+        "source": "extracted_geo"
+      }
+    },
+    "missing": [],
+    "notes": [
+      "ebitda: not derived, missing interest"
+    ],
+    "ocr_pages": 0
+  },
+  "metrics": {
+    "expected_fields": 0,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": false,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [
+      "equity",
+      "net_profit",
+      "pre_tax_profit",
+      "total_assets",
+      "turnover"
+    ],
+    "status_match": false,
+    "reason_match": false,
+    "metadata_match": false,
+    "refusal": false,
+    "policy_violation": true
+  },
+  "fallback_metrics": {
+    "expected_fields": 3,
+    "correct_fields": 3,
+    "anchored_correct_fields": 3,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [
+      "equity",
+      "total_assets"
+    ],
+    "status_match": false,
+    "reason_match": true,
+    "metadata_match": false,
+    "refusal": false,
+    "policy_violation": false,
+    "forbidden_emissions": []
+  },
+  "error": null
+}

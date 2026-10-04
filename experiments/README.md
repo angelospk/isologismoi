@@ -12,6 +12,7 @@
 | `gemi-counts.json`, `compute_scale.py` | Πρωτογενή συγκεντρωτικά πλήθη και υπολογισμοί ημερών |
 | `publicity-network-notes.md`, `publicity-evidence/` | Έλεγχος browser, HTTP και κανονικού headless Chrome |
 | `publicity_headless.py` | Μία bounded δοκιμή με εφήμερο Chrome profile. Δεν διατηρεί cookies ή raw DOM |
+| `geo_extract.py`, `test_geo_extract.py` | Πειραματικό parser: στήλες από γεωμετρία (scope Όμιλος/Εταιρεία, έτος), μονάδα ανά σελίδα, labels σε πολλές γραμμές. Χρησιμοποιεί ξανά labels/money/identities του `extractor/` |
 | `fetch_wheels.py` | Βοηθητικό τοπικής εγκατάστασης. Έλεγχος checksum στις νέες λήψεις και resume partial αρχείων |
 
 ## Αναπαραγωγή στο mini PC
@@ -41,6 +42,17 @@ experiments/.venv/bin/python experiments/parsing_benchmark.py \
 ```
 
 Τα αποτελέσματα αυτής της ημερομηνίας προήλθαν από αρχικά run με `format="json"` και χωριστό run με JSON schema. Δεν συγκρίνονται ως ίδια εκτέλεση. Το αρχικό όριο 700 tokens προκάλεσε και κομμένα JSON. Το schema run είχε όριο 1.200 tokens.
+
+Γεωμετρία στηλών και ελληνικό OCR (RapidOCR 3.9.2 + onnxruntime στο `.venv-docling`, μοντέλο `el_PP-OCRv5_rec_mobile` από modelscope στην πρώτη χρήση):
+
+```bash
+experiments/.venv/bin/python experiments/parsing_benchmark.py --backend geo --timeout 120
+experiments/.venv-docling/bin/pip install onnxruntime
+experiments/.venv-docling/bin/python experiments/parsing_benchmark.py --backend geo-ocr --timeout 400
+PYTHONPATH=experiments experiments/.venv/bin/python -m pytest -q experiments/test_geo_extract.py
+```
+
+Το `geo-ocr` κάνει OCR μόνο σε σελίδες με λιγότερους από 300 χαρακτήρες, έως 40 σελίδες/PDF, στα 200 dpi. Οι κανόνες αναπτύχθηκαν πάνω στα ίδια fixtures: τα αποτελέσματα είναι in-sample.
 
 ## Τι ακριβώς συγκρίνεται
 
