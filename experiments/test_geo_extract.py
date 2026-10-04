@@ -238,3 +238,12 @@ def test_low_confidence_amount_row_is_not_mistaken_for_a_header():
     row[-1]["score"] = 0.93
     p = page(two_cols(100), row, line(160, "Κύκλος εργασιών", ["900,00", "800,00"]))
     assert run(p)["figures"]["turnover"]["value"] == 900
+
+
+def test_group_target_reads_the_group_column_and_company_target_ignores_a_group_page():
+    dual = dual_scope([line(120, "Κύκλος εργασιών", ["900,00", "800,00", "700,00", "600,00"])])
+    assert extract_pages([dual[0]], [dual[1]], target_scope="group")["figures"]["turnover"]["value"] == 900
+    group_page = page([w("Ενοποιημένη", 20, 60), w("κατάσταση", 100, 60)], two_cols(),
+                      line(120, "Κύκλος εργασιών", ["900,00", "800,00"]))
+    assert extract_pages([group_page[0]], [group_page[1]], target_scope="group")["figures"]["turnover"]["value"] == 900
+    assert "turnover" not in run(group_page)["figures"]

@@ -176,13 +176,16 @@ def _scopes_above(rows, index, cols, page_scope):
 def _page_scope(page_text_norm):
     """Scope of an unlabelled two-column table, from the page's own words.
 
-    Any mention of a group ('Ομίλου', 'Ενοποιημένες') makes the page unknown:
-    it could be the group's statement, so its columns are never read as the
-    company's. Only a page with no group mention at all counts as single.
+    Any mention of a group ('Ομίλου', 'Ενοποιημένες') means the page is never
+    read as the company's. It counts as the group's only when nothing on the
+    page also names the company's own statements. No group mention: single.
     """
     if _GROUP_TITLE.search(page_text_norm):
-        return "unknown"
+        return "unknown" if _COMPANY_TITLE.search(page_text_norm) else "group"
     return "single"
+
+
+TARGETS = {"company": ("company", "single"), "group": ("group",)}
 
 
 ASSIGN_TOLERANCE = 0.35   # of the gap between column centres
@@ -252,7 +255,7 @@ def _page_unit(rows, page_norm, doc_unit_mentioned):
     return None
 
 
-def extract_pages(pages, page_texts=None):
+def extract_pages(pages, page_texts=None, target_scope="company"):
     notes = []
     page_texts = page_texts or [" ".join(w["text"] for w in p["words"]) for p in pages]
     full_text = "\n".join(page_texts)
@@ -362,9 +365,9 @@ def extract_pages(pages, page_texts=None):
             if cols is None:
                 notes.append(f"{key}: no usable column header on page {page_index + 1}")
                 continue
-            target = [i for i, (y, _, s) in enumerate(cols) if y == fiscal_year and s in ("company", "single")]
+            target = [i for i, (y, _, s) in enumerate(cols) if y == fiscal_year and s in TARGETS[target_scope]]
             if len(target) != 1:
-                notes.append(f"{key}: no single company column for {fiscal_year} on page {page_index + 1}")
+                notes.append(f"{key}: no single {target_scope} column for {fiscal_year} on page {page_index + 1}")
                 continue
             # Dashes are printed empty cells: they occupy a column, so a row
             # with more cells than columns collides and is refused.
@@ -420,5 +423,5 @@ def extract_pages(pages, page_texts=None):
     scopes = {v["scope"] for v in figures.values() if "scope" in v}
     return dict(status="parsed" if not missing else "partial", reason=None, ar_gemi=facts["ar_gemi"],
                 fiscal_year=fiscal_year, unit_multiplier=multipliers.pop() if multipliers else 1,
-                currency="EUR", scope="company" if scopes <= {"company", "single"} else None,
+                currency="EUR", scope=target_scope if scopes <= set(TARGETS[target_scope]) else None,
                 figures=figures, missing=missing, notes=notes)

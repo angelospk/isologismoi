@@ -1,0 +1,161 @@
+[
+  {
+    "company": "QUEST",
+    "year": 2024,
+    "engine": "geo",
+    "scope": "group",
+    "truth": {
+      "turnover": 1325352000.0,
+      "net_profit": 49840000.0,
+      "pre_tax_profit": 64984000.0,
+      "total_assets": 927461000.0,
+      "equity": 356765000.0
+    },
+    "result": {
+      "turnover": "missing",
+      "net_profit": "missing",
+      "pre_tax_profit": "missing",
+      "total_assets": "missing",
+      "equity": "missing"
+    },
+    "fiscal_year": null,
+    "status": "unparseable",
+    "reason": "ambiguous_fiscal_year",
+    "error": null,
+    "seconds": 27.9,
+    "notes": [
+      "no column header year [2024, 2025] matches the reporting periods [2022] named in the text"
+    ]
+  },
+  {
+    "company": "QUEST",
+    "year": 2024,
+    "engine": "geo-ocr",
+    "scope": "group",
+    "truth": {
+      "turnover": 1325352000.0,
+      "net_profit": 49840000.0,
+      "pre_tax_profit": 64984000.0,
+      "total_assets": 927461000.0,
+      "equity": 356765000.0
+    },
+    "result": {
+      "turnover": "missing",
+      "net_profit": "missing",
+      "pre_tax_profit": "missing",
+      "total_assets": "missing",
+      "equity": "missing"
+    },
+    "fiscal_year": null,
+    "status": "unparseable",
+    "reason": "ambiguous_fiscal_year",
+    "error": null,
+    "seconds": 31.8,
+    "notes": [
+      "no column header year [2024, 2025] matches the reporting periods [2022] named in the text"
+    ]
+  },
+  {
+    "company": "AUTOHELLAS",
+    "year": 2024,
+    "engine": "geo",
+    "scope": "group",
+    "truth": {
+      "turnover": 985687604.0,
+      "net_profit": 89498486.0,
+      "pre_tax_profit": 105391512.0,
+      "total_assets": 1606158307.0,
+      "equity": 489887874.0
+    },
+    "result": {
+      "turnover": "missing",
+      "net_profit": "missing",
+      "pre_tax_profit": "missing",
+      "total_assets": "missing",
+      "equity": "missing"
+    },
+    "fiscal_year": 2024,
+    "status": "unparseable",
+    "reason": "no_recognised_line_items",
+    "error": null,
+    "seconds": 23.0,
+    "notes": [
+      "turnover: no usable column header on page 8",
+      "depreciation: no usable column header on page 8",
+      "pre_tax_profit: no usable column header on page 8",
+      "turnover: no usable column header on page 8",
+      "depreciation: no usable column header on page 8",
+      "pre_tax_profit: no usable column header on page 8",
+      "total_assets: no usable column header on page 9",
+      "equity: no usable column header on page 9",
+      "long_term_liabilities: no usable column header on page 9",
+      "short_term_liabilities: no usable column header on page 9",
+      "total_liabilities: no usable column header on page 9",
+      "total_assets: no usable column header on page 9",
+      "equity: no usable column header on page 9",
+      "long_term_liabilities: no usable column header on page 9",
+      "short_term_liabilities: no usable column header on page 9",
+      "total_liabilities: no usable column header on page 9",
+      "depreciation: no usable column header on page 148",
+      "depreciation: no usable column header on page 149",
+      "depreciation: no usable column header on page 149",
+      "depreciation: no usable column header on page 150",
+      "depreciation: no usable column header on page 150",
+      "long_term_liabilities: unit unknown on page 193",
+      "total_liabilities: unit unknown on page 193",
+      "ebitda: not derived, missing pre_tax_profit,interest,depreciation"
+    ]
+  },
+  {
+    "company": "AUTOHELLAS",
+    "year": 2024,
+    "engine": "geo-ocr",
+    "scope": "group",
+    "truth": {
+      "turnover": 985687604.0,
+      "net_profit": 89498486.0,
+      "pre_tax_profit": 105391512.0,
+      "total_assets": 1606158307.0,
+      "equity": 489887874.0
+    },
+    "result": {
+      "turnover": "missing",
+      "net_profit": "missing",
+      "pre_tax_profit": "missing",
+      "total_assets": "missing",
+      "equity": "missing"
+    },
+    "fiscal_year": 2024,
+    "status": "unparseable",
+    "reason": "no_recognised_line_items",
+    "error": null,
+    "seconds": 31.5,
+    "notes": [
+      "turnover: no usable column header on page 8",
+      "depreciation: no usable column header on page 8",
+      "pre_tax_profit: no usable column header on page 8",
+      "turnover: no usable column header on page 8",
+      "depreciation: no usable column header on page 8",
+      "pre_tax_profit: no usable column header on page 8",
+      "total_assets: no usable column header on page 9",
+      "equity: no usable column header on page 9",
+      "long_term_liabilities: no usable column header on page 9",
+      "short_term_liabilities: no usable column header on page 9",
+      "total_liabilities: no usable column header on page 9",
+      "total_assets: no usable column header on page 9",
+      "equity: no usable column header on page 9",
+      "long_term_liabilities: no usable column header on page 9",
+      "short_term_liabilities: no usable column header on page 9",
+      "total_liabilities: no usable column header on page 9",
+      "low-confidence header on page 12; table not read",
+      "depreciation: no usable column header on page 148",
+      "depreciation: no usable column header on page 149",
+      "depreciation: no usable column header on page 149",
+      "depreciation: no usable column header on page 150",
+      "depreciation: no usable column header on page 150",
+      "long_term_liabilities: unit unknown on page 193",
+      "total_liabilities: unit unknown on page 193",
+      "ebitda: not derived, missing pre_tax_profit,interest,depreciation"
+    ]
+  }
+]
