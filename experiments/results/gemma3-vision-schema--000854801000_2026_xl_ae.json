@@ -1,0 +1,50 @@
+{
+  "pdf": "000854801000_2026_xl_ae.pdf",
+  "backend": "gemma3-vision-schema",
+  "seconds": 68.40768749600102,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "needs_review",
+    "reason": "llm_quarantine",
+    "figures": {},
+    "fiscal_year": 2024,
+    "scope": "company",
+    "unit_multiplier": 1,
+    "currency": "EUR"
+  },
+  "metrics": {
+    "expected_fields": 0,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": false,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [],
+    "status_match": false,
+    "reason_match": false,
+    "metadata_match": false,
+    "refusal": true,
+    "policy_violation": false
+  },
+  "fallback_metrics": {
+    "expected_fields": 4,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": false,
+    "wrong_fields": [],
+    "missing_fields": [
+      "pre_tax_profit",
+      "net_profit",
+      "total_assets",
+      "equity"
+    ],
+    "unsupported_fields": [],
+    "status_match": true,
+    "reason_match": false,
+    "metadata_match": false,
+    "refusal": true,
+    "policy_violation": false,
+    "forbidden_emissions": []
+  },
+  "error": null
+}

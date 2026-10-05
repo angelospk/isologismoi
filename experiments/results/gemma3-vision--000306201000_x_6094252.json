@@ -1,0 +1,9 @@
+{
+  "pdf": "000306201000_x_6094252.pdf",
+  "backend": "gemma3-vision",
+  "seconds": 84.07053211900347,
+  "api_cost_eur": 0,
+  "prediction": null,
+  "metrics": null,
+  "error": "AttributeError: 'list' object has no attribute 'items'"
+}

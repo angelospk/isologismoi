@@ -1,0 +1,6 @@
+{
+  "status": 400,
+  "response_bytes": 23,
+  "retry_after": null,
+  "body_excerpt": "{\"error\":\"Bad request\"}"
+}

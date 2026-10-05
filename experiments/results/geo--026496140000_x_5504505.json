@@ -1,0 +1,138 @@
+{
+  "pdf": "026496140000_x_5504505.pdf",
+  "backend": "geo",
+  "seconds": 5.148933931995998,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "parsed",
+    "reason": null,
+    "ar_gemi": "026496140000",
+    "fiscal_year": 2024,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "scope": "company",
+    "figures": {
+      "total_assets": {
+        "value": 26367267.0,
+        "page": 8,
+        "bbox": [
+          390.14,
+          565.01,
+          440.85,
+          574.63
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Σύνολο Ενεργητικού",
+        "raw_text": "26.367.267",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "equity": {
+        "value": 11934096.0,
+        "page": 9,
+        "bbox": [
+          390.14,
+          234.89,
+          440.85,
+          244.51
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Σύνολο καθαρής θέσης",
+        "raw_text": "11.934.096",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "turnover": {
+        "value": 25521800.0,
+        "page": 10,
+        "bbox": [
+          323.01,
+          158.13,
+          372.51,
+          168.32
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Κύκλος εργασιών (καθαρός)",
+        "raw_text": "25.521.800",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "ebit": {
+        "value": 1430184.0,
+        "page": 10,
+        "bbox": [
+          324.21,
+          300.81,
+          371.93,
+          311.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Αποτελέσματα προ τόκων και φόρων",
+        "raw_text": "1.430.184",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "pre_tax_profit": {
+        "value": 946616.0,
+        "page": 10,
+        "bbox": [
+          333.26,
+          356.61,
+          371.91,
+          366.8
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Αποτέλεσμα προ φόρων",
+        "raw_text": "946.616",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "net_profit": {
+        "value": 726666.0,
+        "page": 10,
+        "bbox": [
+          333.26,
+          399.81,
+          371.91,
+          410.01
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Αποτέλεσμα περιόδου μετά από φόρους",
+        "raw_text": "726.666",
+        "scope": "single",
+        "source": "extracted_geo"
+      }
+    },
+    "missing": [],
+    "notes": [
+      "depreciation: no usable column header on page 21",
+      "depreciation: no usable column header on page 21",
+      "depreciation: no usable column header on page 21",
+      "depreciation: no usable column header on page 21",
+      "ebitda: not derived, interest/depreciation not shown as expenses"
+    ],
+    "ocr_pages": 0
+  },
+  "metrics": {
+    "expected_fields": 6,
+    "correct_fields": 6,
+    "anchored_correct_fields": 6,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [],
+    "status_match": true,
+    "reason_match": true,
+    "metadata_match": true,
+    "refusal": false,
+    "policy_violation": false
+  },
+  "fallback_metrics": null,
+  "error": null
+}

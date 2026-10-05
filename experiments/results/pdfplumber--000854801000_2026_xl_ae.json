@@ -1,0 +1,54 @@
+{
+  "pdf": "000854801000_2026_xl_ae.pdf",
+  "backend": "pdfplumber",
+  "seconds": 0.11976375500671566,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "unparseable",
+    "reason": "no_text_layer",
+    "figures": {},
+    "ar_gemi": "000854801000",
+    "afm": "094399907",
+    "fiscal_year": null,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "notes": [
+      "no year column header found in the document"
+    ]
+  },
+  "metrics": {
+    "expected_fields": 0,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [],
+    "status_match": true,
+    "reason_match": true,
+    "metadata_match": true,
+    "refusal": true,
+    "policy_violation": false
+  },
+  "fallback_metrics": {
+    "expected_fields": 4,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": false,
+    "wrong_fields": [],
+    "missing_fields": [
+      "pre_tax_profit",
+      "net_profit",
+      "total_assets",
+      "equity"
+    ],
+    "unsupported_fields": [],
+    "status_match": false,
+    "reason_match": false,
+    "metadata_match": false,
+    "refusal": true,
+    "policy_violation": false,
+    "forbidden_emissions": []
+  },
+  "error": null
+}

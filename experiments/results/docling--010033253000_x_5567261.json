@@ -1,0 +1,55 @@
+{
+  "pdf": "010033253000_x_5567261.pdf",
+  "backend": "docling",
+  "seconds": 188.42041238000093,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "unparseable",
+    "reason": "multi_column_layout",
+    "figures": {},
+    "ar_gemi": "010033253000",
+    "afm": "081424133",
+    "fiscal_year": null,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "notes": [
+      "header repeats the same two years twice"
+    ]
+  },
+  "metrics": {
+    "expected_fields": 0,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [],
+    "status_match": true,
+    "reason_match": true,
+    "metadata_match": true,
+    "refusal": true,
+    "policy_violation": false
+  },
+  "fallback_metrics": {
+    "expected_fields": 5,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": false,
+    "wrong_fields": [],
+    "missing_fields": [
+      "turnover",
+      "pre_tax_profit",
+      "net_profit",
+      "total_assets",
+      "equity"
+    ],
+    "unsupported_fields": [],
+    "status_match": false,
+    "reason_match": false,
+    "metadata_match": false,
+    "refusal": true,
+    "policy_violation": false,
+    "forbidden_emissions": []
+  },
+  "error": null
+}

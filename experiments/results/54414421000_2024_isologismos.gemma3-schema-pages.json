@@ -1,0 +1,41 @@
+[
+  {
+    "page": 2,
+    "seconds": 65.5272002210113,
+    "candidate": {
+      "status": "needs_review",
+      "fiscal_year": 2023,
+      "scope": null,
+      "currency": "EUR",
+      "unit_multiplier": 1,
+      "reason": "The image contains Greek financial statements. The year is 2023.  Data extraction is incomplete and requires further review to confirm labels and values accurately. Figures are not fully legible, so confidence is low.",
+      "figures": {
+        "net_profit": {
+          "value": "1.146.865,95",
+          "raw_text": "1.146.865,95",
+          "label": "Συνολικό Κέρδος Προσαρμογής",
+          "confidence": 0.6
+        }
+      }
+    },
+    "prompt_tokens": 439,
+    "output_tokens": 141,
+    "done_reason": "stop"
+  },
+  {
+    "page": 3,
+    "seconds": 64.03180570300901,
+    "candidate": {
+      "status": "needs_review",
+      "fiscal_year": 2024,
+      "scope": "group",
+      "currency": "EUR",
+      "unit_multiplier": 1,
+      "reason": "The document contains multiple tables with figures and requires careful review to extract the correct values and their corresponding labels. The year is 2024, but the scope of the data (group vs. single entity) is unclear from the provided image. Further analysis is needed to determine the exact figures for turnover, total assets, equity, pre-tax profit, and net profit.",
+      "figures": {}
+    },
+    "prompt_tokens": 439,
+    "output_tokens": 115,
+    "done_reason": "stop"
+  }
+]

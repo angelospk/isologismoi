@@ -1,0 +1,33 @@
+{
+  "pdf": "_synthetic_no_text.pdf",
+  "backend": "pdfplumber",
+  "seconds": 0.0011834259930765256,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "unparseable",
+    "reason": "no_text_layer",
+    "figures": {},
+    "ar_gemi": null,
+    "afm": null,
+    "fiscal_year": null,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "notes": []
+  },
+  "metrics": {
+    "expected_fields": 0,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [],
+    "status_match": true,
+    "reason_match": true,
+    "metadata_match": true,
+    "refusal": true,
+    "policy_violation": false
+  },
+  "fallback_metrics": null,
+  "error": null
+}

@@ -1,0 +1,136 @@
+{
+  "pdf": "000854801000_2026_xl_ae.pdf",
+  "backend": "geo-ocr",
+  "seconds": 51.03913983500388,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "partial",
+    "reason": null,
+    "ar_gemi": "000854801000",
+    "fiscal_year": 2025,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "scope": "company",
+    "figures": {
+      "total_assets": {
+        "value": 185848557.0,
+        "page": 4,
+        "bbox": [
+          330.12,
+          623.52,
+          380.16,
+          635.4
+        ],
+        "page_width": 595.2,
+        "page_height": 841.68,
+        "label_matched": "Σύνολο ενεργητικού",
+        "raw_text": "185.848.557",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "equity": {
+        "value": 185659262.0,
+        "page": 5,
+        "bbox": [
+          324.0,
+          131.76,
+          375.48,
+          145.44
+        ],
+        "page_width": 595.2,
+        "page_height": 841.68,
+        "label_matched": "Ίδια κεφάλαια",
+        "raw_text": "185.659.262",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "pre_tax_profit": {
+        "value": 4947477.0,
+        "page": 5,
+        "bbox": [
+          335.16,
+          375.12,
+          373.68,
+          387.0
+        ],
+        "page_width": 595.2,
+        "page_height": 841.68,
+        "label_matched": "Κέρδη προ φόρων",
+        "raw_text": "4.947.477",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "net_profit": {
+        "value": 3424732.0,
+        "page": 13,
+        "bbox": [
+          444.6,
+          452.52,
+          482.76,
+          464.76
+        ],
+        "page_width": 595.2,
+        "page_height": 841.68,
+        "label_matched": "Κέρδη / (Ζημιές) μετά από φόρους",
+        "raw_text": "3.424.732",
+        "scope": "single",
+        "source": "extracted_geo"
+      }
+    },
+    "missing": [
+      "turnover"
+    ],
+    "notes": [
+      "low-confidence header on page 4; table not read",
+      "low-confidence header on page 4; table not read",
+      "low-confidence header on page 8; table not read",
+      "low-confidence header on page 9; table not read",
+      "low-confidence header on page 15; table not read",
+      "low-confidence header on page 16; table not read",
+      "low-confidence header on page 17; table not read",
+      "low-confidence header on page 20; table not read",
+      "low-confidence header on page 21; table not read",
+      "low-confidence header on page 25; table not read",
+      "low-confidence header on page 26; table not read",
+      "low-confidence header on page 26; table not read",
+      "low-confidence header on page 30; table not read",
+      "ebitda: not derived, missing interest,depreciation"
+    ],
+    "ocr_pages": 29
+  },
+  "metrics": {
+    "expected_fields": 0,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": false,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [
+      "equity",
+      "net_profit",
+      "pre_tax_profit",
+      "total_assets"
+    ],
+    "status_match": false,
+    "reason_match": false,
+    "metadata_match": false,
+    "refusal": false,
+    "policy_violation": true
+  },
+  "fallback_metrics": {
+    "expected_fields": 4,
+    "correct_fields": 4,
+    "anchored_correct_fields": 4,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [],
+    "status_match": false,
+    "reason_match": true,
+    "metadata_match": false,
+    "refusal": false,
+    "policy_violation": false,
+    "forbidden_emissions": []
+  },
+  "error": null
+}

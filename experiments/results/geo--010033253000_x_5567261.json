@@ -1,0 +1,204 @@
+{
+  "pdf": "010033253000_x_5567261.pdf",
+  "backend": "geo",
+  "seconds": 5.526342758996179,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "parsed",
+    "reason": null,
+    "ar_gemi": "010033253000",
+    "fiscal_year": 2024,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "scope": "company",
+    "figures": {
+      "total_assets": {
+        "value": 67845953.3,
+        "page": 22,
+        "bbox": [
+          413.83,
+          738.34,
+          478.3,
+          749.38
+        ],
+        "page_width": 595.44,
+        "page_height": 841.68,
+        "label_matched": "Σύνολο ενεργητικού",
+        "raw_text": "67.845.953,30",
+        "scope": "company",
+        "source": "extracted_geo"
+      },
+      "equity": {
+        "value": 11220675.98,
+        "page": 23,
+        "bbox": [
+          413.83,
+          292.25,
+          478.3,
+          303.29
+        ],
+        "page_width": 595.44,
+        "page_height": 841.68,
+        "label_matched": "Σύνολο καθαρής θέσης",
+        "raw_text": "11.220.675,98",
+        "scope": "company",
+        "source": "extracted_geo"
+      },
+      "turnover": {
+        "value": 86392297.53,
+        "page": 24,
+        "bbox": [
+          404.35,
+          176.54,
+          468.46,
+          187.58
+        ],
+        "page_width": 595.44,
+        "page_height": 841.68,
+        "label_matched": "Κύκλος εργασιών (καθαρός)",
+        "raw_text": "86.392.297,53",
+        "scope": "company",
+        "source": "extracted_geo"
+      },
+      "ebit": {
+        "value": 6750393.08,
+        "page": 24,
+        "bbox": [
+          409.51,
+          304.13,
+          468.45,
+          315.17
+        ],
+        "page_width": 595.44,
+        "page_height": 841.68,
+        "label_matched": "Αποτελέσματα προ τόκων και φόρων",
+        "raw_text": "6.750.393,08",
+        "scope": "company",
+        "source": "extracted_geo"
+      },
+      "pre_tax_profit": {
+        "value": 4713487.34,
+        "page": 24,
+        "bbox": [
+          409.51,
+          346.61,
+          468.45,
+          357.65
+        ],
+        "page_width": 595.44,
+        "page_height": 841.68,
+        "label_matched": "Αποτέλεσμα προ φόρων",
+        "raw_text": "4.713.487,34",
+        "scope": "company",
+        "source": "extracted_geo"
+      },
+      "net_profit": {
+        "value": 3189818.83,
+        "page": 24,
+        "bbox": [
+          409.51,
+          390.41,
+          468.46,
+          401.45
+        ],
+        "page_width": 595.44,
+        "page_height": 841.68,
+        "label_matched": "Αποτέλεσμα περιόδου μετά από φόρους",
+        "raw_text": "3.189.818,83",
+        "scope": "company",
+        "source": "extracted_geo"
+      }
+    },
+    "missing": [],
+    "notes": [
+      "turnover: no usable column header on page 10",
+      "pre_tax_profit: no usable column header on page 11",
+      "total_assets: no usable column header on page 11",
+      "total_equity_and_liabilities: no usable column header on page 12",
+      "short_term_liabilities: no usable column header on page 17",
+      "short_term_liabilities: no usable column header on page 17",
+      "short_term_liabilities: no usable column header on page 17",
+      "equity: no usable column header on page 17",
+      "total_liabilities: no usable column header on page 18",
+      "turnover: no usable column header on page 18",
+      "turnover: no usable column header on page 19",
+      "turnover: no usable column header on page 19",
+      "equity: no usable column header on page 19",
+      "turnover: no usable column header on page 19",
+      "turnover: no usable column header on page 19",
+      "turnover: no usable column header on page 20",
+      "turnover: no usable column header on page 20",
+      "total_assets: no usable column header on page 20",
+      "depreciation: no usable column header on page 26",
+      "depreciation: no usable column header on page 35",
+      "depreciation: no usable column header on page 35",
+      "depreciation: no usable column header on page 35",
+      "depreciation: no usable column header on page 36",
+      "depreciation: no usable column header on page 36",
+      "depreciation: no usable column header on page 36",
+      "depreciation: no usable column header on page 36",
+      "depreciation: no usable column header on page 36",
+      "depreciation: no usable column header on page 36",
+      "depreciation: no usable column header on page 36",
+      "depreciation: no usable column header on page 36",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no usable column header on page 37",
+      "depreciation: no single company column for 2024 on page 42",
+      "depreciation: no single company column for 2024 on page 42",
+      "short_term_liabilities: no usable column header on page 53",
+      "short_term_liabilities: no usable column header on page 53",
+      "short_term_liabilities: no usable column header on page 53",
+      "ebitda: not derived, missing depreciation"
+    ],
+    "ocr_pages": 0
+  },
+  "metrics": {
+    "expected_fields": 0,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": false,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [
+      "ebit",
+      "equity",
+      "net_profit",
+      "pre_tax_profit",
+      "total_assets",
+      "turnover"
+    ],
+    "status_match": false,
+    "reason_match": false,
+    "metadata_match": false,
+    "refusal": false,
+    "policy_violation": true
+  },
+  "fallback_metrics": {
+    "expected_fields": 5,
+    "correct_fields": 5,
+    "anchored_correct_fields": 5,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [
+      "ebit"
+    ],
+    "status_match": false,
+    "reason_match": true,
+    "metadata_match": false,
+    "refusal": false,
+    "policy_violation": false,
+    "forbidden_emissions": []
+  },
+  "error": null
+}

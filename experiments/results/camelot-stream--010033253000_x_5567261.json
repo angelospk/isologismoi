@@ -1,0 +1,9 @@
+{
+  "pdf": "010033253000_x_5567261.pdf",
+  "backend": "camelot-stream",
+  "seconds": 0.4493075300124474,
+  "api_cost_eur": 0,
+  "prediction": null,
+  "metrics": null,
+  "error": "ValueError: max() iterable argument is empty"
+}

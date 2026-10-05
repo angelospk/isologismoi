@@ -1,0 +1,82 @@
+{
+  "000854801000_2026_xl_ae": {
+    "fiscal_year": 2025,
+    "scope": "company",
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "pages": [
+      13,
+      14
+    ],
+    "figures": {
+      "pre_tax_profit": {
+        "value": 4947477
+      },
+      "net_profit": {
+        "value": 3424732
+      },
+      "total_assets": {
+        "value": 185848557
+      },
+      "equity": {
+        "value": 185659262
+      }
+    },
+    "must_omit": [
+      "turnover"
+    ],
+    "note": "Έσοδα από μερίσματα 5.196.965 δεν είναι κύκλος εργασιών."
+  },
+  "010033253000_x_5567261": {
+    "fiscal_year": 2024,
+    "scope": "company",
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "pages": [
+      22,
+      23,
+      24
+    ],
+    "figures": {
+      "turnover": {
+        "value": 86392297.53
+      },
+      "pre_tax_profit": {
+        "value": 4713487.34
+      },
+      "net_profit": {
+        "value": 3189818.83
+      },
+      "total_assets": {
+        "value": 67845953.3
+      },
+      "equity": {
+        "value": 11220675.98
+      }
+    },
+    "must_omit": [],
+    "note": "Μόνο τρίτη στήλη: Εταιρεία / 2024. Ο Όμιλος έχει διαφορετικό τζίρο."
+  },
+  "000306201000_x_6094252": {
+    "fiscal_year": 2025,
+    "scope": "company",
+    "unit_multiplier": 1000,
+    "currency": "EUR",
+    "pages": [
+      14
+    ],
+    "figures": {
+      "turnover": {
+        "value": 205619000
+      },
+      "pre_tax_profit": {
+        "value": 8411000
+      },
+      "net_profit": {
+        "value": 6363000
+      }
+    },
+    "must_omit": [],
+    "note": "Όλα τα ποσά σε χιλιάδες ευρώ: 205.619 => 205.619.000."
+  }
+}

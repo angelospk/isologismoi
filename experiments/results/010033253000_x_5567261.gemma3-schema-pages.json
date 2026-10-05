@@ -1,0 +1,50 @@
+[
+  {
+    "page": 22,
+    "seconds": 6.053221365000354,
+    "candidate": {
+      "status": "needs_review",
+      "fiscal_year": 2023,
+      "scope": null,
+      "currency": "EUR",
+      "unit_multiplier": 1,
+      "reason": "The image contains a financial statement with multiple tables and unclear labels.  It's difficult to definitively extract figures and their corresponding labels due to the format and lack of clear context. The year is 2023 based on the date range provided, but further review is needed to confirm all data points accurately.",
+      "figures": {}
+    },
+    "prompt_tokens": 439,
+    "output_tokens": 103,
+    "done_reason": "stop"
+  },
+  {
+    "page": 23,
+    "seconds": 5.635673589000362,
+    "candidate": {
+      "status": "needs_review",
+      "fiscal_year": 2024,
+      "scope": "group",
+      "currency": "EUR",
+      "unit_multiplier": 1,
+      "reason": "The image contains multiple tables with varying data and unclear labels. Further clarification is needed to accurately extract the figures and their corresponding labels. The year is 2024 based on the title, but the scope of the data (e.g., group vs. individual) is ambiguous.",
+      "figures": {}
+    },
+    "prompt_tokens": 439,
+    "output_tokens": 97,
+    "done_reason": "stop"
+  },
+  {
+    "page": 24,
+    "seconds": 65.5656962649955,
+    "candidate": {
+      "status": "needs_review",
+      "fiscal_year": 2024,
+      "scope": "group",
+      "currency": "EUR",
+      "unit_multiplier": 1,
+      "reason": "The table shows comparative data for the year ending 31.12.2024. The figures are in EUR and represent the group's financial performance. There is no clear unit multiplier or scope beyond 'group'. Further review is needed to confirm the exact figures and their context.",
+      "figures": {}
+    },
+    "prompt_tokens": 439,
+    "output_tokens": 99,
+    "done_reason": "stop"
+  }
+]

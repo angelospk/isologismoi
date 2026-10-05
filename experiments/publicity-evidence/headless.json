@@ -1,0 +1,13 @@
+{
+  "exit_code": 0,
+  "company_name_visible": false,
+  "gemi_visible": false,
+  "captcha_visible": false,
+  "text_excerpt": [
+    "429 Too Many Requests",
+    "429 Too Many Requests",
+    "nginx/1.24.0 (Ubuntu)"
+  ],
+  "dom_bytes": 177,
+  "mode": "normal Chrome headless, no stealth, ephemeral profile"
+}

@@ -1,0 +1,35 @@
+{
+  "pdf": "113772252000_2026_mid_ae.pdf",
+  "backend": "pymupdf",
+  "seconds": 0.052385916002094746,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "unparseable",
+    "reason": "statements_not_attached",
+    "figures": {},
+    "ar_gemi": "113772252000",
+    "afm": null,
+    "fiscal_year": null,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "notes": [
+      "no year column header found in the document"
+    ]
+  },
+  "metrics": {
+    "expected_fields": 0,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [],
+    "unsupported_fields": [],
+    "status_match": true,
+    "reason_match": true,
+    "metadata_match": true,
+    "refusal": true,
+    "policy_violation": false
+  },
+  "fallback_metrics": null,
+  "error": null
+}

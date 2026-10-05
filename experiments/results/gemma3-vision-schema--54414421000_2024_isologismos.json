@@ -1,0 +1,48 @@
+{
+  "pdf": "54414421000_2024_isologismos.pdf",
+  "backend": "gemma3-vision-schema",
+  "seconds": 129.6881444449973,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "needs_review",
+    "reason": "llm_quarantine",
+    "figures": {
+      "net_profit": {
+        "value": "1.146.865,95",
+        "raw_text": "1.146.865,95",
+        "label": "Συνολικό Κέρδος Προσαρμογής",
+        "confidence": 0.6,
+        "page": 2,
+        "source": "llm_quarantine"
+      }
+    },
+    "fiscal_year": 2023,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "scope": "group"
+  },
+  "metrics": {
+    "expected_fields": 6,
+    "correct_fields": 0,
+    "anchored_correct_fields": 0,
+    "context_match": false,
+    "wrong_fields": [
+      "net_profit"
+    ],
+    "missing_fields": [
+      "turnover",
+      "total_assets",
+      "equity",
+      "pre_tax_profit",
+      "ebitda"
+    ],
+    "unsupported_fields": [],
+    "status_match": false,
+    "reason_match": false,
+    "metadata_match": false,
+    "refusal": false,
+    "policy_violation": false
+  },
+  "fallback_metrics": null,
+  "error": null
+}

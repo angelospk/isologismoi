@@ -1,0 +1,18 @@
+[
+  {
+    "page": 14,
+    "seconds": 56.599185639002826,
+    "candidate": {
+      "status": "needs_review",
+      "fiscal_year": 2024,
+      "scope": null,
+      "currency": "EUR",
+      "unit_multiplier": 1,
+      "reason": "The table contains multiple rows with different labels and unclear figures. It's difficult to determine the exact scope (turnover, total assets, etc.) or confirm the currency without further context. The year is 2024 as per the table title.",
+      "figures": {}
+    },
+    "prompt_tokens": 439,
+    "output_tokens": 91,
+    "done_reason": "stop"
+  }
+]

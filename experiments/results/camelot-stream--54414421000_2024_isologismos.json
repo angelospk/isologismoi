@@ -1,0 +1,85 @@
+{
+  "pdf": "54414421000_2024_isologismos.pdf",
+  "backend": "camelot-stream",
+  "seconds": 0.30995245098893065,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "partial",
+    "reason": null,
+    "ar_gemi": "054414421000",
+    "afm": "094274613",
+    "fiscal_year": 2024,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "figures": {
+      "total_assets": {
+        "value": 1109512.73,
+        "page": 2,
+        "bbox": [
+          1000.0,
+          198.0,
+          1012.0,
+          204.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Σύνολο ενεργητικού",
+        "source": "extracted"
+      },
+      "equity": {
+        "value": 135370.23,
+        "page": 2,
+        "bbox": [
+          1000.0,
+          216.0,
+          1012.0,
+          222.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Κεφάλαια και αποθεματικά",
+        "source": "extracted"
+      },
+      "turnover": {
+        "value": 339878.25,
+        "page": 2,
+        "bbox": [
+          500.0,
+          315.0,
+          512.0,
+          321.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Κύκλος εργασιών (καθαρός)",
+        "source": "extracted"
+      }
+    },
+    "missing": [
+      "net_profit"
+    ],
+    "notes": [
+      "ebitda: not derived, missing pre_tax_profit"
+    ]
+  },
+  "metrics": {
+    "expected_fields": 6,
+    "correct_fields": 3,
+    "anchored_correct_fields": 3,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [
+      "pre_tax_profit",
+      "net_profit",
+      "ebitda"
+    ],
+    "unsupported_fields": [],
+    "status_match": false,
+    "reason_match": true,
+    "metadata_match": true,
+    "refusal": false,
+    "policy_violation": false
+  },
+  "fallback_metrics": null,
+  "error": null
+}
