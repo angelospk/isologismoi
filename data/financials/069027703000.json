@@ -1,0 +1,109 @@
+{
+ "status": "parsed",
+ "reason": null,
+ "ar_gemi": "069027703000",
+ "afm": null,
+ "fiscal_year": 2024,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "figures": {
+  "total_assets": {
+   "value": 799503.54,
+   "page": 2,
+   "bbox": [
+    325.08,
+    304.65,
+    358.69,
+    311.37
+   ],
+   "page_width": 595,
+   "page_height": 842,
+   "label_matched": "Σύνολο ενεργητικού",
+   "source": "extracted"
+  },
+  "equity": {
+   "value": 789543.43,
+   "page": 2,
+   "bbox": [
+    325.08,
+    394.05,
+    358.69,
+    400.77
+   ],
+   "page_width": 595,
+   "page_height": 842,
+   "label_matched": "Σύνολο καθαρής θέσης",
+   "source": "extracted"
+  },
+  "turnover": {
+   "value": 342004.33,
+   "page": 2,
+   "bbox": [
+    325.08,
+    578.13,
+    358.69,
+    584.85
+   ],
+   "page_width": 595,
+   "page_height": 842,
+   "label_matched": "Κύκλος εργασιών (καθαρός)",
+   "source": "extracted"
+  },
+  "pre_tax_profit": {
+   "value": -137740.1,
+   "page": 2,
+   "bbox": [
+    324.0,
+    722.25,
+    359.89,
+    728.97
+   ],
+   "page_width": 595,
+   "page_height": 842,
+   "label_matched": "Αποτέλεσμα προ φόρων",
+   "source": "extracted"
+  },
+  "net_profit": {
+   "value": -137740.1,
+   "page": 2,
+   "bbox": [
+    324.0,
+    740.13,
+    359.89,
+    746.85
+   ],
+   "page_width": 595,
+   "page_height": 842,
+   "label_matched": "Αποτέλεσμα περιόδου μετά από φόρους",
+   "source": "extracted"
+  },
+  "ebit": {
+   "value": -136729.65,
+   "page": 9,
+   "bbox": [
+    338.88,
+    118.84,
+    392.48,
+    129.88
+   ],
+   "page_width": 595,
+   "page_height": 842,
+   "label_matched": "Αποτελέσματα προ τόκων και φόρων",
+   "source": "extracted"
+  },
+  "ebitda": {
+   "value": -114603.43,
+   "source": "derived",
+   "derived_from": [
+    "pre_tax_profit",
+    "interest",
+    "depreciation"
+   ],
+   "formula": "pre_tax_profit - interest - depreciation"
+  }
+ },
+ "missing": [],
+ "notes": [],
+ "source_element_id": "5574693",
+ "source_registered": "2025-10-01"
+}
