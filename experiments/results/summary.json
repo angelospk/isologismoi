@@ -139,6 +139,75 @@
       "api_cost_eur_per_pdf": 0
     },
     {
+      "backend": "marker",
+      "pdfs": 7,
+      "real_pdfs": 6,
+      "errors": 0,
+      "empty_outputs": 5,
+      "original_expected": 12,
+      "original_correct": 10,
+      "original_anchored": 10,
+      "original_wrong": 0,
+      "confident_wrong": 0,
+      "fallback_expected": 12,
+      "fallback_correct": 0,
+      "fallback_anchored": 0,
+      "fallback_wrong": 0,
+      "fallback_confident_wrong": 0,
+      "forbidden_emissions": 0,
+      "metadata_matches": 7,
+      "status_matches": 5,
+      "seconds_mean": 14.120069401139128,
+      "seconds_median": 14.909274192992598,
+      "api_cost_eur_per_pdf": 0
+    },
+    {
+      "backend": "marker-geo",
+      "pdfs": 7,
+      "real_pdfs": 6,
+      "errors": 0,
+      "empty_outputs": 3,
+      "original_expected": 12,
+      "original_correct": 10,
+      "original_anchored": 10,
+      "original_wrong": 0,
+      "confident_wrong": 0,
+      "fallback_expected": 12,
+      "fallback_correct": 7,
+      "fallback_anchored": 7,
+      "fallback_wrong": 0,
+      "fallback_confident_wrong": 0,
+      "forbidden_emissions": 0,
+      "metadata_matches": 4,
+      "status_matches": 3,
+      "seconds_mean": 0.2040228489620079,
+      "seconds_median": 0.11166524305008352,
+      "api_cost_eur_per_pdf": 0
+    },
+    {
+      "backend": "marker-ocr",
+      "pdfs": 7,
+      "real_pdfs": 6,
+      "errors": 1,
+      "empty_outputs": 4,
+      "original_expected": 12,
+      "original_correct": 11,
+      "original_anchored": 11,
+      "original_wrong": 0,
+      "confident_wrong": 0,
+      "fallback_expected": 12,
+      "fallback_correct": 0,
+      "fallback_anchored": 0,
+      "fallback_wrong": 0,
+      "fallback_confident_wrong": 0,
+      "forbidden_emissions": 0,
+      "metadata_matches": 6,
+      "status_matches": 5,
+      "seconds_mean": 576.9495075525816,
+      "seconds_median": 516.9935649919789,
+      "api_cost_eur_per_pdf": 0
+    },
+    {
       "backend": "pdfplumber",
       "pdfs": 7,
       "real_pdfs": 6,
@@ -368,6 +437,138 @@
         "correct": 2,
         "wrong": 0,
         "missing": 0
+      },
+      "equity": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "ebit": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
+      },
+      "pre_tax_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "net_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "ebitda": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
+      }
+    },
+    "marker": {
+      "turnover": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "total_assets": {
+        "expected": 2,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 1
+      },
+      "equity": {
+        "expected": 2,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 1
+      },
+      "ebit": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
+      },
+      "pre_tax_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "net_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "ebitda": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
+      }
+    },
+    "marker-geo": {
+      "turnover": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "total_assets": {
+        "expected": 2,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 1
+      },
+      "equity": {
+        "expected": 2,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 1
+      },
+      "ebit": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
+      },
+      "pre_tax_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "net_profit": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "ebitda": {
+        "expected": 1,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 0
+      }
+    },
+    "marker-ocr": {
+      "turnover": {
+        "expected": 2,
+        "correct": 2,
+        "wrong": 0,
+        "missing": 0
+      },
+      "total_assets": {
+        "expected": 2,
+        "correct": 1,
+        "wrong": 0,
+        "missing": 1
       },
       "equity": {
         "expected": 2,

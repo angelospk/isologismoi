@@ -1,0 +1,9 @@
+{
+  "pdf": "000854801000_2026_xl_ae.pdf",
+  "backend": "marker-ocr",
+  "seconds": 1800.3312603899976,
+  "api_cost_eur": 0,
+  "prediction": null,
+  "metrics": null,
+  "error": "Command '['/home/harold/isologismoi/experiments/.venv-marker/bin/python', '/home/harold/isologismoi/experiments/parsing_benchmark.py', '--backend', 'marker-ocr', '--pdf', '/home/harold/isologismoi/extractor/fixtures/000854801000_2026_xl_ae.pdf']' timed out after 1800 seconds"
+}

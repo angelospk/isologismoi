@@ -1,0 +1,127 @@
+[
+  {
+    "pdf": "54414421000_2024_isologismos",
+    "kind": "synthetic",
+    "engine": "marker",
+    "expected": 6,
+    "anchored": 6,
+    "wrong": [],
+    "missing": [],
+    "context_match": true,
+    "forbidden": [],
+    "values": {
+      "total_assets": 1109512.73,
+      "equity": 135370.23,
+      "turnover": 339878.25,
+      "pre_tax_profit": -29755.57,
+      "net_profit": -29755.57,
+      "ebitda": -3900.02
+    },
+    "reason": null,
+    "notes": [
+      "long_term_liabilities: amount not aligned with the company/2024 column (cols [(2024, 506, 'single'), (2023, 1006, 'single')], amounts [('696.883,91', 1006), ('683.817,69', 1506)])",
+      "short_term_liabilities: amount not aligned with the company/2024 column (cols [(2024, 506, 'single'), (2023, 1006, 'single')], amounts [('277.258,59', 1006), ('295.923,46', 1506)])"
+    ],
+    "error": null
+  },
+  {
+    "pdf": "026496140000_x_5504505",
+    "kind": "synthetic",
+    "engine": "marker",
+    "expected": 6,
+    "anchored": 6,
+    "wrong": [],
+    "missing": [],
+    "context_match": true,
+    "forbidden": [],
+    "values": {
+      "total_assets": 26367267.0,
+      "equity": 11934096.0,
+      "turnover": 25521800.0,
+      "ebit": 1430184.0,
+      "pre_tax_profit": 946616.0,
+      "net_profit": 726666.0
+    },
+    "reason": null,
+    "notes": [
+      "ebitda: not derived, missing depreciation"
+    ],
+    "error": null
+  },
+  {
+    "pdf": "000306201000_x_6094252",
+    "kind": "synthetic",
+    "engine": "marker",
+    "expected": 3,
+    "anchored": 1,
+    "wrong": [],
+    "missing": [
+      "pre_tax_profit",
+      "net_profit"
+    ],
+    "context_match": true,
+    "forbidden": [],
+    "values": {
+      "turnover": 205619000.0,
+      "total_assets": 121262000.0,
+      "equity": 25709000.0
+    },
+    "reason": null,
+    "notes": [
+      "ebitda: not derived, missing pre_tax_profit,interest,depreciation"
+    ],
+    "error": null
+  },
+  {
+    "pdf": "010033253000_x_5567261",
+    "kind": "synthetic",
+    "engine": "marker",
+    "expected": 5,
+    "anchored": 1,
+    "wrong": [],
+    "missing": [
+      "turnover",
+      "pre_tax_profit",
+      "net_profit",
+      "equity"
+    ],
+    "context_match": true,
+    "forbidden": [],
+    "values": {
+      "total_assets": 67845953.3
+    },
+    "reason": null,
+    "notes": [
+      "equity: amount not aligned with the company/2024 column (cols [(2024, 1006, 'group'), (2023, 1506, 'group'), (2024, 2006, 'company'), (2023, 2506, 'company')], amounts [('11.143.029,05', 506), ('8.418.927,11', 1006), ('11.220.675,98', 1506), ('8.433.933,17', 2006)])",
+      "turnover: no usable column header on page 4",
+      "ebit: no usable column header on page 4",
+      "interest: no usable column header on page 4",
+      "pre_tax_profit: no usable column header on page 4",
+      "net_profit: no usable column header on page 4",
+      "ebitda: not derived, missing pre_tax_profit,interest,depreciation"
+    ],
+    "error": null
+  },
+  {
+    "pdf": "000854801000_2026_xl_ae",
+    "kind": "real",
+    "engine": "marker",
+    "expected": 4,
+    "anchored": 4,
+    "wrong": [],
+    "missing": [],
+    "context_match": true,
+    "forbidden": [],
+    "values": {
+      "total_assets": 185848557.0,
+      "equity": 185659262.0,
+      "pre_tax_profit": 4947477.0,
+      "net_profit": 3424732.0
+    },
+    "reason": null,
+    "notes": [
+      "ebitda: not derived, missing interest,depreciation"
+    ],
+    "error": null
+  }
+]

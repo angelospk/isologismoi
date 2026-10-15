@@ -1,0 +1,115 @@
+{
+  "pdf": "026496140000_x_5504505.pdf",
+  "backend": "marker",
+  "seconds": 17.483634156058542,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "partial",
+    "reason": null,
+    "ar_gemi": "026496140000",
+    "afm": "801265131",
+    "fiscal_year": 2024,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "figures": {
+      "turnover": {
+        "value": 25521800.0,
+        "page": 10,
+        "bbox": [
+          1000.0,
+          9.0,
+          1012.0,
+          15.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Κύκλος εργασιών (καθαρός)",
+        "source": "extracted"
+      },
+      "ebit": {
+        "value": 1430184.0,
+        "page": 10,
+        "bbox": [
+          1000.0,
+          90.0,
+          1012.0,
+          96.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Αποτελέσματα προ τόκων και φόρων",
+        "source": "extracted"
+      },
+      "pre_tax_profit": {
+        "value": 946616.0,
+        "page": 10,
+        "bbox": [
+          1000.0,
+          108.0,
+          1012.0,
+          114.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Αποτέλεσμα προ φόρων",
+        "source": "extracted"
+      },
+      "net_profit": {
+        "value": 726666.0,
+        "page": 10,
+        "bbox": [
+          1000.0,
+          126.0,
+          1012.0,
+          132.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Αποτέλεσμα περιόδου μετά από φόρους",
+        "source": "extracted"
+      },
+      "total_assets": {
+        "value": 26367267.0,
+        "page": 32,
+        "bbox": [
+          1000.0,
+          189.0,
+          1012.0,
+          195.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Σύνολο Ενεργητικού",
+        "source": "extracted"
+      }
+    },
+    "missing": [
+      "equity"
+    ],
+    "notes": [
+      "total_assets: no year header seen before this row",
+      "depreciation: 1 amounts for 2 year columns",
+      "depreciation: 1 amounts for 2 year columns",
+      "ebitda: not derived, missing interest"
+    ],
+    "unscored_ocr_pages": []
+  },
+  "metrics": {
+    "expected_fields": 6,
+    "correct_fields": 5,
+    "anchored_correct_fields": 5,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [
+      "equity"
+    ],
+    "unsupported_fields": [],
+    "status_match": false,
+    "reason_match": true,
+    "metadata_match": true,
+    "refusal": false,
+    "policy_violation": false
+  },
+  "fallback_metrics": null,
+  "error": null
+}

@@ -1,0 +1,115 @@
+{
+  "pdf": "54414421000_2024_isologismos.pdf",
+  "backend": "marker-geo",
+  "seconds": 0.07565542904194444,
+  "api_cost_eur": 0,
+  "prediction": {
+    "status": "partial",
+    "reason": null,
+    "ar_gemi": "054414421000",
+    "fiscal_year": 2024,
+    "unit_multiplier": 1,
+    "currency": "EUR",
+    "scope": "company",
+    "figures": {
+      "equity": {
+        "value": 135370.23,
+        "page": 2,
+        "bbox": [
+          500.0,
+          90.0,
+          512.0,
+          96.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Κεφάλαια και αποθεματικά",
+        "raw_text": "135.370,23",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "turnover": {
+        "value": 339878.25,
+        "page": 2,
+        "bbox": [
+          500.0,
+          162.0,
+          512.0,
+          168.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Κύκλος εργασιών (καθαρός)",
+        "raw_text": "339.878,25",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "pre_tax_profit": {
+        "value": -29755.57,
+        "page": 3,
+        "bbox": [
+          500.0,
+          0.0,
+          512.0,
+          6.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Αποτελέσματα προ φόρων",
+        "raw_text": "-29.755,57",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "net_profit": {
+        "value": -29755.57,
+        "page": 3,
+        "bbox": [
+          500.0,
+          18.0,
+          512.0,
+          24.0
+        ],
+        "page_width": 595.32,
+        "page_height": 841.92,
+        "label_matched": "Αποτέλεσμα περιόδου μετά από φόρους",
+        "raw_text": "-29.755,57",
+        "scope": "single",
+        "source": "extracted_geo"
+      },
+      "ebitda": {
+        "value": -3900.02,
+        "source": "derived",
+        "derived_from": [
+          "pre_tax_profit",
+          "interest",
+          "depreciation"
+        ],
+        "formula": "pre_tax_profit - interest - depreciation"
+      }
+    },
+    "missing": [
+      "total_assets"
+    ],
+    "notes": [],
+    "marker_force_ocr": false,
+    "unscored_ocr_pages": []
+  },
+  "metrics": {
+    "expected_fields": 6,
+    "correct_fields": 5,
+    "anchored_correct_fields": 5,
+    "context_match": true,
+    "wrong_fields": [],
+    "missing_fields": [
+      "total_assets"
+    ],
+    "unsupported_fields": [],
+    "status_match": false,
+    "reason_match": true,
+    "metadata_match": true,
+    "refusal": false,
+    "policy_violation": false
+  },
+  "fallback_metrics": null,
+  "error": null
+}

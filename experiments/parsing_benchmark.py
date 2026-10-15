@@ -42,6 +42,71 @@ def table_words(rows, top=0):
                 words.append(word(t,x,top+i*9,x+12,top+i*9+6))
     return words
 
+from html.parser import HTMLParser
+import re as _re
+_AMOUNT=_re.compile(r"(?<![\d.,])\d{1,3}(?:\.\d{3})+(?:,\d+)?(?![\d.,])|(?<![\d.,])\d+,\d{2}(?![\d.,])")  # 1.234 / 1.234,56 / 250,50
+class _Cells(HTMLParser):
+    def __init__(self):
+        super().__init__();self.rows=[];self.cell=None;self.down={}  # column -> rows still covered by a rowspan
+    def _skip_covered(self):
+        row=self.rows[-1]
+        while self.down.get(len(row),0)>0:self.down[len(row)]-=1;row.append("")
+    def handle_starttag(self,tag,attrs):
+        a=dict(attrs)
+        if tag=="tr":self.rows.append([])
+        elif tag in("td","th") and self.rows:
+            self._skip_covered();self.cell=[];self.span=int(a.get("colspan") or 1);self.rspan=int(a.get("rowspan") or 1)
+        elif tag=="br" and self.cell is not None:self.cell.append(" ")
+    def handle_endtag(self,tag):
+        if tag in("td","th") and self.cell is not None:
+            row=self.rows[-1];start=len(row);text=" ".join("".join(self.cell).split())
+            # An amount spread over several columns has no single year/scope: drop it (missing, not wrong).
+            if self.span>1 and (_AMOUNT.search(text) or (any(ch.isdigit() for ch in text) and not any(ch.isalpha() for ch in text))):text=""
+            row+=[text]+[""]*(self.span-1);self.cell=None
+            for c in range(start,len(row)):
+                if self.rspan>1:self.down[c]=self.rspan-1
+        elif tag=="tr" and self.rows:
+            # Every rowspan counter advances once per row, also past the end of a short row.
+            row=self.rows[-1]
+            for c in self.down:
+                if c>=len(row) and self.down[c]>0:self.down[c]-=1
+    def handle_data(self,data):
+        if self.cell is not None:self.cell.append(data)
+def html_table_rows(html):
+    parser=_Cells();parser.feed(html);return [r for r in parser.rows if r]
+
+def _marker_blocks(block):
+    yield block
+    for child in block.get("children") or ():yield from _marker_blocks(child)
+def marker_tables(data):
+    """Table blocks of marker's JSON output as (page index, rows). Order follows the document."""
+    out=[]
+    for i,page in enumerate(data.get("children") or ()):
+        for b in _marker_blocks(page):
+            if b.get("block_type")=="Table":out.append((i,html_table_rows(b.get("html") or "")))
+    return out
+def marker_page_texts(data,n):
+    import html as _html,re
+    texts=[""]*n
+    for i,page in enumerate((data.get("children") or ())[:n]):
+        leaves=[b.get("html") or "" for b in _marker_blocks(page) if not b.get("children")]
+        text=_html.unescape(re.sub(r"<[^>]+>"," "," ".join(leaves)))
+        texts[i]=" ".join(text.split())
+    return texts
+def marker_json(path,ocr,scanned,target=None):
+    """marker 2.0.0, local models only: no use_llm, no LLM service.
+    marker: text layer only. marker-ocr: full-page OCR on scans, default CPU mode elsewhere."""
+    from marker.config.parser import ConfigParser
+    from marker.converters.pdf import PdfConverter
+    from marker.models import create_model_dict
+    config=dict(output_format="json",use_llm=False,force_ocr=ocr and scanned,disable_ocr=not ocr)
+    parser=ConfigParser(config)
+    converter=PdfConverter(config=parser.generate_config_dict(),artifact_dict=create_model_dict(),
+                           processor_list=parser.get_processors(),renderer=parser.get_renderer(),llm_service=None)
+    data=converter(str(path)).model_dump(mode="json")
+    (target or OUT/(path.stem+(".marker-ocr.json" if ocr else ".marker.json"))).write_text(json.dumps(data,ensure_ascii=False))
+    return data
+
 _OCR=None
 def ocr_words(path, index, dpi=200):
     """Greek PP-OCRv5 word boxes via RapidOCR/ONNX, converted to PDF points. Local only."""
@@ -93,6 +158,35 @@ def geo(path, ocr=False):
     out["ocr_pages"]=ocr_pages
     return out
 
+def marker_extract(path,data,use_geo=False,pages=None,ocr=False):
+    """Feed marker JSON tables to the core parser (or geo_extract).
+    Same synthetic-coordinate feed as Docling: not production evidence boxes.
+    Only with ocr=True may marker text stand in for a page without a text layer."""
+    pages=pages or pymupdf_pages(path)
+    scanned=len("".join(p.text for p in pages).strip())<semantic.MIN_TEXT_CHARS
+    unscored=[]  # pages read from marker OCR: no per-word confidence exists
+    for i,(p,t) in enumerate(zip(pages,marker_page_texts(data,len(pages)))):
+        p.words=[]
+        if ocr and len(p.text.strip())<semantic.MIN_CHARS_PER_TEXT_PAGE and len(t)>len(p.text.strip()):p.text=t;unscored.append(i+1)
+    offsets={}
+    for idx,rows in marker_tables(data):
+        if idx>=len(pages):continue
+        top=offsets.get(idx,0)
+        pages[idx].words.extend(table_words(rows,top))
+        offsets[idx]=top+(len(rows)+3)*9
+    if use_geo:
+        # geo_extract rules on marker cells. No per-word OCR score: the 0.95 gate cannot fire.
+        sys.path.insert(0,str(ROOT/"experiments"))
+        import geo_extract
+        if len("".join(p.text for p in pages).strip())<semantic.MIN_TEXT_CHARS:return semantic._refuse("no_text_layer")
+        out=geo_extract.extract_pages([dict(width=p.width,height=p.height,words=p.words) for p in pages],[p.text for p in pages])
+        out["marker_force_ocr"]=scanned;out["unscored_ocr_pages"]=unscored
+        return out
+    with patch.object(semantic.pdfplumber,"open",return_value=Document(pages)):
+        out=semantic.extract(path.read_bytes())
+    out["unscored_ocr_pages"]=unscored
+    return out
+
 def backend(path, name):
     if name=="pdfplumber": return semantic.extract(path.read_bytes())
     if name in ("geo","geo-ocr"): return geo(path,ocr=name=="geo-ocr")
@@ -132,6 +226,12 @@ def backend(path, name):
             top=offsets.get(idx,0)
             pages[idx].words.extend(table_words(rows,top))
             offsets[idx]=top+(len(rows)+3)*9
+    if name in ("marker","marker-ocr","marker-geo"):
+        scanned=len("".join(p.text for p in pages).strip())<semantic.MIN_TEXT_CHARS
+        saved=OUT/(path.stem+".marker-ocr.json")
+        if name=="marker-geo" and saved.exists():data=json.loads(saved.read_text())  # reuse the marker-ocr run
+        else:data=marker_json(path,name!="marker",scanned)
+        return marker_extract(path,data,use_geo=name=="marker-geo",pages=pages,ocr=name!="marker")
     with patch.object(semantic.pdfplumber,"open",return_value=Document(pages)):
         return semantic.extract(path.read_bytes())
 
@@ -232,7 +332,7 @@ def run_one(path,name):
 
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument("--backend",choices=["pdfplumber","pymupdf","camelot-stream","docling","geo","geo-ocr","gemma3-vision","gemma3-vision-schema"])
+    ap.add_argument("--backend",choices=["pdfplumber","pymupdf","camelot-stream","docling","geo","geo-ocr","marker","marker-ocr","marker-geo","gemma3-vision","gemma3-vision-schema"])
     ap.add_argument("--pdf")
     ap.add_argument("--only",nargs="*")
     ap.add_argument("--timeout",type=int,default=240)

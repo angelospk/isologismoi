@@ -54,6 +54,25 @@ PYTHONPATH=experiments experiments/.venv/bin/python -m pytest -q experiments/tes
 
 Το `geo-ocr` κάνει OCR μόνο σε σελίδες με λιγότερους από 300 χαρακτήρες, έως 40 σελίδες/PDF, στα 200 dpi. Οι κανόνες αναπτύχθηκαν πάνω στα ίδια fixtures: τα αποτελέσματα είναι in-sample.
 
+marker 2.0.0 (2026-10-15, CPU, χωριστό venv). Το OCR του v2 είναι VLM (surya-ocr-2) που τρέχει σε `llama-server`. Χρησιμοποιήθηκε το επίσημο CPU build llama.cpp b11645 (sha256 ελεγμένο), έξω από το repo. Τα μοντέλα κατεβαίνουν από Hugging Face στην πρώτη χρήση (GGUF 1,2 GB + mmproj 196 MB). Κανένα `use_llm`, κανένα API key.
+
+```bash
+python3 -m venv experiments/.venv-marker
+experiments/.venv-marker/bin/pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+experiments/.venv-marker/bin/pip install marker-pdf==2.0.0 pdfplumber pymupdf pytest
+export LLAMA_CPP_BINARY=~/.cache/llamacpp-b11645/llama-b11645/llama-server SURYA_INFERENCE_BACKEND=llamacpp
+experiments/run_marker.sh marker 400        # text layer only (disable_ocr), peak RSS στο log
+experiments/run_marker.sh marker-ocr 1800   # force_ocr στις σαρώσεις, default CPU mode αλλού
+experiments/.venv-marker/bin/python experiments/parsing_benchmark.py --backend marker-geo  # geo rules, ξαναχρησιμοποιεί τα *.marker-ocr.json
+experiments/.venv-marker/bin/python experiments/marker_heldout.py esef
+experiments/.venv-marker/bin/python experiments/marker_heldout.py elp
+experiments/.venv-docling/bin/python experiments/ocr_quality.py text --engine paddle
+experiments/.venv/bin/python experiments/ocr_quality.py text --engine tesseract
+experiments/.venv-marker/bin/python experiments/ocr_quality.py text --engine marker
+experiments/.venv/bin/python experiments/ocr_quality.py score
+PYTHONPATH=experiments experiments/.venv/bin/python -m pytest -q experiments/test_marker.py
+```
+
 ## Τι ακριβώς συγκρίνεται
 
 pdfplumber: ο υπάρχων extractor. PyMuPDF: πραγματικές λέξεις/συντεταγμένες αντί για pdfplumber, με **ίδιους ελέγχους και labels**. Camelot stream και Docling: τα cells των πινάκων τροφοδοτούν τον ίδιο parser, με συνθετικές συντεταγμένες για τη διάταξη γραμμής/στήλης και το αρχικό κείμενο σελίδας για τα document facts. Οι συνθετικές συντεταγμένες **δεν είναι έγκυρα production evidence boxes**. Δεν πρόκειται για ανεξάρτητους ολοκληρωμένους financial parsers ή αξιολόγηση όλων των δυνατοτήτων των εργαλείων.

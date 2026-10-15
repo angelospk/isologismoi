@@ -1,0 +1,278 @@
+[
+  {
+    "engine": "paddle",
+    "doc": "54414421000_2024_isologismos__scan",
+    "seconds": 6.1,
+    "error": null,
+    "numbers": {
+      "truth": 104,
+      "got": 103,
+      "hit": 102,
+      "recall": 0.9808,
+      "precision": 0.9903
+    },
+    "greek_words": {
+      "truth": 396,
+      "got": 396,
+      "hit": 392,
+      "recall": 0.9899,
+      "precision": 0.9899
+    }
+  },
+  {
+    "engine": "paddle",
+    "doc": "026496140000_x_5504505__scan",
+    "seconds": 4.4,
+    "error": null,
+    "numbers": {
+      "truth": 162,
+      "got": 162,
+      "hit": 158,
+      "recall": 0.9753,
+      "precision": 0.9753
+    },
+    "greek_words": {
+      "truth": 290,
+      "got": 292,
+      "hit": 287,
+      "recall": 0.9897,
+      "precision": 0.9829
+    }
+  },
+  {
+    "engine": "paddle",
+    "doc": "000306201000_x_6094252__scan",
+    "seconds": 4.8,
+    "error": null,
+    "numbers": {
+      "truth": 134,
+      "got": 134,
+      "hit": 133,
+      "recall": 0.9925,
+      "precision": 0.9925
+    },
+    "greek_words": {
+      "truth": 413,
+      "got": 413,
+      "hit": 400,
+      "recall": 0.9685,
+      "precision": 0.9685
+    }
+  },
+  {
+    "engine": "paddle",
+    "doc": "010033253000_x_5567261__scan",
+    "seconds": 5.4,
+    "error": null,
+    "numbers": {
+      "truth": 355,
+      "got": 354,
+      "hit": 348,
+      "recall": 0.9803,
+      "precision": 0.9831
+    },
+    "greek_words": {
+      "truth": 399,
+      "got": 399,
+      "hit": 396,
+      "recall": 0.9925,
+      "precision": 0.9925
+    }
+  },
+  {
+    "engine": "paddle",
+    "doc": "000854801000_2026_xl_ae",
+    "seconds": 51.8,
+    "error": null,
+    "amounts_verbatim": {
+      "pre_tax_profit": true,
+      "net_profit": true,
+      "total_assets": true,
+      "equity": true
+    }
+  },
+  {
+    "engine": "tesseract",
+    "doc": "54414421000_2024_isologismos__scan",
+    "seconds": 3.4,
+    "error": null,
+    "numbers": {
+      "truth": 104,
+      "got": 101,
+      "hit": 99,
+      "recall": 0.9519,
+      "precision": 0.9802
+    },
+    "greek_words": {
+      "truth": 396,
+      "got": 399,
+      "hit": 328,
+      "recall": 0.8283,
+      "precision": 0.8221
+    }
+  },
+  {
+    "engine": "tesseract",
+    "doc": "026496140000_x_5504505__scan",
+    "seconds": 3.0,
+    "error": null,
+    "numbers": {
+      "truth": 162,
+      "got": 161,
+      "hit": 147,
+      "recall": 0.9074,
+      "precision": 0.913
+    },
+    "greek_words": {
+      "truth": 290,
+      "got": 280,
+      "hit": 214,
+      "recall": 0.7379,
+      "precision": 0.7643
+    }
+  },
+  {
+    "engine": "tesseract",
+    "doc": "000306201000_x_6094252__scan",
+    "seconds": 3.0,
+    "error": null,
+    "numbers": {
+      "truth": 134,
+      "got": 133,
+      "hit": 121,
+      "recall": 0.903,
+      "precision": 0.9098
+    },
+    "greek_words": {
+      "truth": 413,
+      "got": 396,
+      "hit": 317,
+      "recall": 0.7676,
+      "precision": 0.8005
+    }
+  },
+  {
+    "engine": "tesseract",
+    "doc": "010033253000_x_5567261__scan",
+    "seconds": 3.4,
+    "error": null,
+    "numbers": {
+      "truth": 355,
+      "got": 354,
+      "hit": 343,
+      "recall": 0.9662,
+      "precision": 0.9689
+    },
+    "greek_words": {
+      "truth": 399,
+      "got": 398,
+      "hit": 333,
+      "recall": 0.8346,
+      "precision": 0.8367
+    }
+  },
+  {
+    "engine": "tesseract",
+    "doc": "000854801000_2026_xl_ae",
+    "seconds": 21.7,
+    "error": null,
+    "amounts_verbatim": {
+      "pre_tax_profit": true,
+      "net_profit": false,
+      "total_assets": true,
+      "equity": true
+    }
+  },
+  {
+    "engine": "marker",
+    "doc": "54414421000_2024_isologismos__scan",
+    "seconds": 273.6,
+    "error": null,
+    "numbers": {
+      "truth": 104,
+      "got": 97,
+      "hit": 97,
+      "recall": 0.9327,
+      "precision": 1.0
+    },
+    "greek_words": {
+      "truth": 396,
+      "got": 387,
+      "hit": 386,
+      "recall": 0.9747,
+      "precision": 0.9974
+    }
+  },
+  {
+    "engine": "marker",
+    "doc": "026496140000_x_5504505__scan",
+    "seconds": 220.9,
+    "error": null,
+    "numbers": {
+      "truth": 162,
+      "got": 155,
+      "hit": 154,
+      "recall": 0.9506,
+      "precision": 0.9935
+    },
+    "greek_words": {
+      "truth": 290,
+      "got": 278,
+      "hit": 275,
+      "recall": 0.9483,
+      "precision": 0.9892
+    }
+  },
+  {
+    "engine": "marker",
+    "doc": "000306201000_x_6094252__scan",
+    "seconds": 253.2,
+    "error": null,
+    "numbers": {
+      "truth": 134,
+      "got": 133,
+      "hit": 132,
+      "recall": 0.9851,
+      "precision": 0.9925
+    },
+    "greek_words": {
+      "truth": 413,
+      "got": 396,
+      "hit": 388,
+      "recall": 0.9395,
+      "precision": 0.9798
+    }
+  },
+  {
+    "engine": "marker",
+    "doc": "010033253000_x_5567261__scan",
+    "seconds": 277.2,
+    "error": null,
+    "numbers": {
+      "truth": 355,
+      "got": 351,
+      "hit": 351,
+      "recall": 0.9887,
+      "precision": 1.0
+    },
+    "greek_words": {
+      "truth": 399,
+      "got": 371,
+      "hit": 369,
+      "recall": 0.9248,
+      "precision": 0.9946
+    }
+  },
+  {
+    "engine": "marker",
+    "doc": "000854801000_2026_xl_ae",
+    "seconds": 0.0,
+    "error": null,
+    "amounts_verbatim": {
+      "pre_tax_profit": true,
+      "net_profit": true,
+      "total_assets": true,
+      "equity": true
+    }
+  }
+]

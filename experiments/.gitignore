@@ -11,3 +11,5 @@ synthetic-scans/
 esef-cache/
 heldout-cache/
 elp-cache/
+results/*.marker.json
+!results/54414421000_2024_isologismos.marker.json

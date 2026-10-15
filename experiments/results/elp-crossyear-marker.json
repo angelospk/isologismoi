@@ -1,0 +1,3528 @@
+{
+  "readings": {
+    "bluevalue|marker|0|2023": {
+      "fiscal_year": 2023,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "bluevalue|marker-geo|0|2023": {
+      "fiscal_year": 2023,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.1,
+      "values": {}
+    },
+    "bluevalue|marker-geo|1|2023": {
+      "fiscal_year": 2023,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.1,
+      "values": {}
+    },
+    "bodossaki|marker|0|2024": {
+      "fiscal_year": 2024,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.3,
+      "values": {}
+    },
+    "bodossaki|marker-geo|0|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.4,
+      "values": {
+        "turnover": -909748.36
+      }
+    },
+    "bodossaki|marker-geo|1|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.4,
+      "values": {
+        "turnover": -622819.36
+      }
+    },
+    "chatzigakis|marker|0|2023": {
+      "fiscal_year": null,
+      "status": "unparseable",
+      "reason": "multi_column_layout",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "chatzigakis|marker-geo|0|2023": {
+      "fiscal_year": 2023,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "chatzigakis|marker-geo|1|2023": {
+      "fiscal_year": 2023,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "diotima|marker|0|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 56060.3,
+        "turnover": 52209.28,
+        "pre_tax_profit": 14392.5,
+        "net_profit": 11226.15
+      }
+    },
+    "diotima|marker-geo|0|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 56060.3,
+        "turnover": 52209.28,
+        "pre_tax_profit": 14392.5,
+        "net_profit": 11226.15
+      }
+    },
+    "diotima|marker-geo|1|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 36533.0,
+        "turnover": 53641.49,
+        "pre_tax_profit": 14745.06,
+        "net_profit": 11501.15
+      }
+    },
+    "diotima|marker|0|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 56060.33,
+        "turnover": 53123.33,
+        "pre_tax_profit": 8364.43,
+        "net_profit": 6524.26
+      }
+    },
+    "diotima|marker-geo|0|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 56060.33,
+        "turnover": 53123.33,
+        "pre_tax_profit": 8364.43,
+        "net_profit": 6524.26
+      }
+    },
+    "diotima|marker-geo|1|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 56060.3,
+        "turnover": 52209.28,
+        "pre_tax_profit": 14392.5,
+        "net_profit": 11226.15
+      }
+    },
+    "etao|marker|0|2022": {
+      "fiscal_year": 2022,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.1,
+      "values": {}
+    },
+    "etao|marker-geo|0|2022": {
+      "fiscal_year": 2022,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.1,
+      "values": {}
+    },
+    "etao|marker-geo|1|2022": {
+      "fiscal_year": 2022,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.1,
+      "values": {}
+    },
+    "etao|marker|0|2023": {
+      "fiscal_year": 2023,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "etao|marker-geo|0|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {
+        "turnover": 1240145.0
+      }
+    },
+    "etao|marker-geo|1|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {
+        "turnover": 85865.0
+      }
+    },
+    "etao|marker|0|2024": {
+      "fiscal_year": 2024,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "etao|marker-geo|0|2024": {
+      "fiscal_year": 2024,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.1,
+      "values": {}
+    },
+    "etao|marker-geo|1|2024": {
+      "fiscal_year": 2024,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.1,
+      "values": {}
+    },
+    "indigo|marker|0|2022": {
+      "fiscal_year": 2022,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 140582.53,
+        "turnover": 229165.57,
+        "pre_tax_profit": 72696.82,
+        "net_profit": 59235.85
+      }
+    },
+    "indigo|marker-geo|0|2022": {
+      "fiscal_year": 2022,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 140582.53,
+        "turnover": 229165.57,
+        "pre_tax_profit": 72696.82,
+        "net_profit": 59235.85
+      }
+    },
+    "indigo|marker-geo|1|2022": {
+      "fiscal_year": 2022,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 142851.72,
+        "turnover": 214130.75,
+        "pre_tax_profit": 79424.53,
+        "net_profit": 61505.04
+      }
+    },
+    "indigo|marker|0|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 119348.47,
+        "turnover": 211901.84,
+        "pre_tax_profit": 33882.3,
+        "net_profit": 22437.76
+      }
+    },
+    "indigo|marker-geo|0|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 119348.47,
+        "turnover": 211901.84,
+        "pre_tax_profit": 33882.3,
+        "net_profit": 22437.76
+      }
+    },
+    "indigo|marker-geo|1|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "equity": 130793.01,
+        "turnover": 211901.84,
+        "pre_tax_profit": 33882.3,
+        "net_profit": 33882.3
+      }
+    },
+    "mga|marker|0|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 5950.0,
+        "pre_tax_profit": -3249.42,
+        "net_profit": -3249.42
+      }
+    },
+    "mga|marker-geo|0|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 5950.0,
+        "pre_tax_profit": -3249.42,
+        "net_profit": -3249.42
+      }
+    },
+    "mga|marker-geo|1|2023": {
+      "fiscal_year": 2023,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 2500.0,
+        "pre_tax_profit": -4974.27,
+        "net_profit": -4974.27
+      }
+    },
+    "navipe|marker|0|2023": {
+      "fiscal_year": 2023,
+      "status": "unparseable",
+      "reason": "multi_column_layout",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "navipe|marker-geo|0|2023": {
+      "fiscal_year": 2023,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "navipe|marker-geo|1|2023": {
+      "fiscal_year": 2023,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "navipe|marker|0|2024": {
+      "fiscal_year": 2024,
+      "status": "unparseable",
+      "reason": "multi_column_layout",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "navipe|marker-geo|0|2024": {
+      "fiscal_year": 2024,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "navipe|marker-geo|1|2024": {
+      "fiscal_year": 2024,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.2,
+      "values": {}
+    },
+    "neogal|marker|0|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "pre_tax_profit": 3002190.54,
+        "net_profit": 2773754.65
+      }
+    },
+    "neogal|marker-geo|0|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 41190225.11,
+        "pre_tax_profit": 3002190.54,
+        "net_profit": 2773754.65
+      }
+    },
+    "neogal|marker-geo|1|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 31208600.45,
+        "pre_tax_profit": 2362515.9,
+        "net_profit": 1954635.82
+      }
+    },
+    "papadopoulos|marker|0|2022": {
+      "fiscal_year": 2022,
+      "status": "parsed",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 500.0,
+        "pre_tax_profit": 304.8,
+        "net_profit": 237.74,
+        "total_assets": 65161.6,
+        "equity": 56237.74
+      }
+    },
+    "papadopoulos|marker-geo|0|2022": {
+      "fiscal_year": 2022,
+      "status": "parsed",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 500.0,
+        "pre_tax_profit": 304.8,
+        "net_profit": 237.74,
+        "total_assets": 65161.6,
+        "equity": 56237.74
+      }
+    },
+    "papadopoulos|marker-geo|1|2022": {
+      "fiscal_year": 2022,
+      "status": "parsed",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 0.0,
+        "pre_tax_profit": 0.0,
+        "net_profit": 0.0,
+        "total_assets": 0.0,
+        "equity": 0.0
+      }
+    },
+    "papadopoulos|marker|0|2023": {
+      "fiscal_year": 2023,
+      "status": "parsed",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "total_assets": 56860.49,
+        "equity": 56001.25,
+        "turnover": 3510.0,
+        "pre_tax_profit": -28.44,
+        "net_profit": -236.49
+      }
+    },
+    "papadopoulos|marker-geo|0|2023": {
+      "fiscal_year": 2023,
+      "status": "parsed",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "total_assets": 56860.49,
+        "equity": 56001.25,
+        "turnover": 3510.0,
+        "pre_tax_profit": -28.44,
+        "net_profit": -236.49
+      }
+    },
+    "papadopoulos|marker-geo|1|2023": {
+      "fiscal_year": 2023,
+      "status": "parsed",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "total_assets": 65161.6,
+        "equity": 56237.74,
+        "turnover": 500.0,
+        "pre_tax_profit": 304.8,
+        "net_profit": 237.74
+      }
+    },
+    "papadopoulos|marker|0|2024": {
+      "fiscal_year": 2024,
+      "status": "parsed",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "total_assets": 54616.03,
+        "equity": 53875.11,
+        "turnover": 2900.0,
+        "pre_tax_profit": -2126.14,
+        "net_profit": -2126.14
+      }
+    },
+    "papadopoulos|marker-geo|0|2024": {
+      "fiscal_year": 2024,
+      "status": "parsed",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "total_assets": 54616.03,
+        "equity": 53875.11,
+        "turnover": 2900.0,
+        "pre_tax_profit": -2126.14,
+        "net_profit": -2126.14
+      }
+    },
+    "papadopoulos|marker-geo|1|2024": {
+      "fiscal_year": 2024,
+      "status": "parsed",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "total_assets": 56860.49,
+        "equity": 56001.25,
+        "turnover": 3510.0,
+        "pre_tax_profit": -28.44,
+        "net_profit": -236.49
+      }
+    },
+    "pfmobile|marker|0|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 9160384.24,
+        "pre_tax_profit": 307835.99,
+        "net_profit": 240111.45
+      }
+    },
+    "pfmobile|marker-geo|0|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 9160384.24,
+        "pre_tax_profit": 307835.99,
+        "net_profit": 240111.45
+      }
+    },
+    "pfmobile|marker-geo|1|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.0,
+      "values": {
+        "turnover": 6471547.94,
+        "pre_tax_profit": 178019.22,
+        "net_profit": 138678.99
+      }
+    },
+    "saltworks|marker|0|2024": {
+      "fiscal_year": 2024,
+      "status": "partial",
+      "reason": null,
+      "error": null,
+      "unit": 1,
+      "seconds": 0.3,
+      "values": {
+        "pre_tax_profit": 899035.31
+      }
+    },
+    "saltworks|marker-geo|0|2024": {
+      "fiscal_year": 2024,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.4,
+      "values": {}
+    },
+    "saltworks|marker-geo|1|2024": {
+      "fiscal_year": 2024,
+      "status": "unparseable",
+      "reason": "no_recognised_line_items",
+      "error": null,
+      "unit": 1,
+      "seconds": 0.4,
+      "values": {}
+    }
+  },
+  "pairs": [
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": -909748.36,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 52209.28,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 14392.5,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 11226.15,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": 56060.3,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 52209.28,
+      "comparative_next": 52209.28,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": 14392.5,
+      "comparative_next": 14392.5,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": 11226.15,
+      "comparative_next": 11226.15,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": 56060.3,
+      "comparative_next": 56060.3,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 53123.33,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 8364.43,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 6524.26,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": 56060.33,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 53123.33,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": 8364.43,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": 6524.26,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": 56060.33,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": 85865.0,
+      "verdict": "one_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 1240145.0,
+      "comparative_next": null,
+      "verdict": "one_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 229165.57,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 72696.82,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 59235.85,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "equity",
+      "current": 140582.53,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 229165.57,
+      "comparative_next": 211901.84,
+      "verdict": "DISAGREE"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": 72696.82,
+      "comparative_next": 33882.3,
+      "verdict": "DISAGREE"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": 59235.85,
+      "comparative_next": 33882.3,
+      "verdict": "DISAGREE"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": 140582.53,
+      "comparative_next": 130793.01,
+      "verdict": "DISAGREE"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 211901.84,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 33882.3,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 22437.76,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": 119348.47,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 211901.84,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": 33882.3,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": 22437.76,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": 119348.47,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 5950.0,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": -3249.42,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": -3249.42,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 5950.0,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": -3249.42,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": -3249.42,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 3002190.54,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 2773754.65,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 41190225.11,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": 3002190.54,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": 2773754.65,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 500.0,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 304.8,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 237.74,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": 65161.6,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "equity",
+      "current": 56237.74,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 500.0,
+      "comparative_next": 500.0,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": 304.8,
+      "comparative_next": 304.8,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": 237.74,
+      "comparative_next": 237.74,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": 65161.6,
+      "comparative_next": 65161.6,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": 56237.74,
+      "comparative_next": 56237.74,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 3510.0,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": -28.44,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": -236.49,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": 56860.49,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": 56001.25,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 3510.0,
+      "comparative_next": 3510.0,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": -28.44,
+      "comparative_next": -28.44,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": -236.49,
+      "comparative_next": -236.49,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": 56860.49,
+      "comparative_next": 56860.49,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": 56001.25,
+      "comparative_next": 56001.25,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 2900.0,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": -2126.14,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": -2126.14,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": 54616.03,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": 53875.11,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 2900.0,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": -2126.14,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": -2126.14,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": 54616.03,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": 53875.11,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 9160384.24,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 307835.99,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 240111.45,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": 9160384.24,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": 307835.99,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": 240111.45,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 899035.31,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "same_engine",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker-geo",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bluevalue",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "bodossaki",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "chatzigakis",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 52209.28,
+      "comparative_next": 52209.28,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 14392.5,
+      "comparative_next": 14392.5,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 11226.15,
+      "comparative_next": 11226.15,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": 56060.3,
+      "comparative_next": 56060.3,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 53123.33,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 8364.43,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 6524.26,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "diotima",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": 56060.33,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": 85865.0,
+      "verdict": "one_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2022,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "etao",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 229165.57,
+      "comparative_next": 211901.84,
+      "verdict": "DISAGREE"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 72696.82,
+      "comparative_next": 33882.3,
+      "verdict": "DISAGREE"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 59235.85,
+      "comparative_next": 33882.3,
+      "verdict": "DISAGREE"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2022,
+      "engine": "marker",
+      "field": "equity",
+      "current": 140582.53,
+      "comparative_next": 130793.01,
+      "verdict": "DISAGREE"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 211901.84,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 33882.3,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 22437.76,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "indigo",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": 119348.47,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 5950.0,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": -3249.42,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": -3249.42,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "mga",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "both_missing"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "navipe",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 3002190.54,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 2773754.65,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "neogal",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 500.0,
+      "comparative_next": 500.0,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 304.8,
+      "comparative_next": 304.8,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 237.74,
+      "comparative_next": 237.74,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": 65161.6,
+      "comparative_next": 65161.6,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2022,
+      "engine": "marker",
+      "field": "equity",
+      "current": 56237.74,
+      "comparative_next": 56237.74,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 3510.0,
+      "comparative_next": 3510.0,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": -28.44,
+      "comparative_next": -28.44,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": -236.49,
+      "comparative_next": -236.49,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": 56860.49,
+      "comparative_next": 56860.49,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2023,
+      "engine": "marker",
+      "field": "equity",
+      "current": 56001.25,
+      "comparative_next": 56001.25,
+      "verdict": "agree"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 2900.0,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": -2126.14,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": -2126.14,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": 54616.03,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "papadopoulos",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": 53875.11,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": 9160384.24,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 307835.99,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": 240111.45,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "pfmobile",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "turnover",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "pre_tax_profit",
+      "current": 899035.31,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "net_profit",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "total_assets",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    },
+    {
+      "pairing": "hybrid",
+      "company": "saltworks",
+      "year": 2024,
+      "engine": "marker",
+      "field": "equity",
+      "current": null,
+      "comparative_next": null,
+      "verdict": "no_next_year_doc"
+    }
+  ]
+}
