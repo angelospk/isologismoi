@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
-"""Greek OCR text quality on the same scans: marker/surya vs PP-OCRv5 vs Tesseract.
+"""Greek OCR text quality on the same scans: marker/surya vs PP-OCRv5 vs Tesseract vs Xiaomi-OCR-0.
 
 Truth for the 4 synthetic scans is the text layer of the original pages
 (ocr_compare.make_scan dropped it). Tokens are compared as multisets, so the
 reading order of an engine does not count. For the real TITAN scan there is no
 text truth: the check is whether the fallback-golden amounts appear verbatim.
-  text  --engine paddle|tesseract|marker  -> results/ocr-text-<engine>.json
+  text  --engine paddle|tesseract|marker|xiaomi  -> results/ocr-text-<engine>.json
   score                                   -> results/ocr-quality.json
   fields                                  -> results/ocr-compare-marker.json (same 24 fields as ocr_compare.py)
 Engines need their own venv: paddle .venv-docling, marker .venv-marker.
+xiaomi needs the local Ollama model longwayxu/xiaomi-ocr-0:bf16 (loopback only).
 """
-import argparse, json, re, subprocess, sys, tempfile, time
+import argparse, base64, json, re, subprocess, sys, tempfile, time, urllib.request
 from collections import Counter
 from pathlib import Path
 
@@ -22,6 +23,12 @@ from ocr_compare import SYNTHETIC, WORK, FIX, SUPP, expected  # noqa: E402
 REAL = "000854801000_2026_xl_ae"
 NUM = re.compile(r"[-−(]?\s?\d[\d.,]*\d(?:\s?\))?")
 GREEK = re.compile(r"[α-ωάέήίόύώϊϋΐΰς]{4,}")
+OTSL = re.compile(r"</?(?:fcel|ecel|lcel|ucel|xcel|nl|otsl)>")
+# Same prompt and decoding as the upstream MCP service (SeerRay-Lab/Xiaomi-OCR-0, skills/xiaomi-ocr).
+XIAOMI_PROMPT = ("Extract all information from the main body of the document image and represent it "
+                 "in markdown format, ignoring headers and footers. Tables should be expressed in OTSL "
+                 "format, formulas in the document should be represented using LATEX format, and the "
+                 "parsing should be organized according to the reading order.")
 
 
 def scans():
@@ -34,6 +41,19 @@ def page_count(path):
     import pymupdf
     with pymupdf.open(path) as doc:
         return len(doc)
+
+
+def xiaomi_page(png):
+    payload = {"model": "longwayxu/xiaomi-ocr-0:bf16", "messages": [{"role": "user", "content": [
+        {"type": "image_url", "image_url": {"url": "data:image/png;base64," + base64.b64encode(png).decode()}},
+        {"type": "text", "text": XIAOMI_PROMPT}]}],
+        "max_tokens": 4096, "temperature": 0, "top_p": 0.8, "reasoning_effort": "none"}
+    req = urllib.request.Request("http://127.0.0.1:11434/v1/chat/completions", json.dumps(payload).encode(),
+                                 {"Content-Type": "application/json"})
+    choice = json.loads(urllib.request.urlopen(req, timeout=900).read())["choices"][0]
+    if choice["finish_reason"] == "length":  # keep the text; one runaway page must not void the document
+        print("xiaomi: page truncated at 4096 tokens", file=sys.stderr, flush=True)
+    return OTSL.sub(" ", choice["message"]["content"])  # table cells -> plain tokens
 
 
 def ocr_text(engine, path):
@@ -52,6 +72,9 @@ def ocr_text(engine, path):
         saved = pb.OUT / f"{path.stem}.marker-ocr.json"
         data = json.loads(saved.read_text()) if saved.exists() else pb.marker_json(path, True, True)
         return pb.marker_page_texts(data, page_count(path))
+    if engine == "xiaomi":
+        with pymupdf.open(path) as doc:  # 150 dpi, as the upstream ocr_pdf default
+            return [xiaomi_page(p.get_pixmap(dpi=150).tobytes("png")) for p in doc]
     raise ValueError(engine)
 
 
@@ -91,7 +114,7 @@ def greek_amount(v):
 
 def score():
     rows = []
-    for engine in ("paddle", "tesseract", "marker"):
+    for engine in ("paddle", "tesseract", "marker", "xiaomi"):
         path = pb.OUT / f"ocr-text-{engine}.json"
         if not path.exists():
             continue
@@ -109,7 +132,7 @@ def score():
                 row["greek_words"] = overlap(words(truth), words(text))
             rows.append(row)
     (pb.OUT / "ocr-quality.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2))
-    for engine in ("paddle", "tesseract", "marker"):
+    for engine in ("paddle", "tesseract", "marker", "xiaomi"):
         sel = [r for r in rows if r["engine"] == engine]
         if not sel:
             continue
@@ -153,7 +176,7 @@ def fields():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["text", "score", "fields"])
-    ap.add_argument("--engine", choices=["paddle", "tesseract", "marker"])
+    ap.add_argument("--engine", choices=["paddle", "tesseract", "marker", "xiaomi"])
     args = ap.parse_args()
     if args.cmd == "score":
         return score()

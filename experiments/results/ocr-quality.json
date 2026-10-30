@@ -274,5 +274,97 @@
       "total_assets": true,
       "equity": true
     }
+  },
+  {
+    "engine": "xiaomi",
+    "doc": "54414421000_2024_isologismos__scan",
+    "seconds": 192.2,
+    "error": null,
+    "numbers": {
+      "truth": 104,
+      "got": 89,
+      "hit": 89,
+      "recall": 0.8558,
+      "precision": 1.0
+    },
+    "greek_words": {
+      "truth": 396,
+      "got": 356,
+      "hit": 255,
+      "recall": 0.6439,
+      "precision": 0.7163
+    }
+  },
+  {
+    "engine": "xiaomi",
+    "doc": "026496140000_x_5504505__scan",
+    "seconds": 189.1,
+    "error": null,
+    "numbers": {
+      "truth": 162,
+      "got": 155,
+      "hit": 154,
+      "recall": 0.9506,
+      "precision": 0.9935
+    },
+    "greek_words": {
+      "truth": 290,
+      "got": 282,
+      "hit": 167,
+      "recall": 0.5759,
+      "precision": 0.5922
+    }
+  },
+  {
+    "engine": "xiaomi",
+    "doc": "000306201000_x_6094252__scan",
+    "seconds": 223.6,
+    "error": null,
+    "numbers": {
+      "truth": 134,
+      "got": 133,
+      "hit": 133,
+      "recall": 0.9925,
+      "precision": 1.0
+    },
+    "greek_words": {
+      "truth": 413,
+      "got": 398,
+      "hit": 265,
+      "recall": 0.6416,
+      "precision": 0.6658
+    }
+  },
+  {
+    "engine": "xiaomi",
+    "doc": "010033253000_x_5567261__scan",
+    "seconds": 321.6,
+    "error": null,
+    "numbers": {
+      "truth": 355,
+      "got": 351,
+      "hit": 351,
+      "recall": 0.9887,
+      "precision": 1.0
+    },
+    "greek_words": {
+      "truth": 399,
+      "got": 382,
+      "hit": 249,
+      "recall": 0.6241,
+      "precision": 0.6518
+    }
+  },
+  {
+    "engine": "xiaomi",
+    "doc": "000854801000_2026_xl_ae",
+    "seconds": 1809.9,
+    "error": null,
+    "amounts_verbatim": {
+      "pre_tax_profit": true,
+      "net_profit": true,
+      "total_assets": true,
+      "equity": true
+    }
   }
 ]
