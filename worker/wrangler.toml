@@ -10,6 +10,17 @@ REFRESH_AFTER_DAYS = "30"
 # GEMI allows 8 requests/minute for the whole key. 10.1s between calls is ~5.9.
 MIN_GAP_MS = "10100"
 
+# Per-client cap on lookups. Each lookup can queue a GEMI call on the single
+# global budget above, so one client must not be able to fill the queue.
+# Keep `limit` in sync with LOOKUPS_PER_MINUTE in test/ratelimit.test.ts.
+[[ratelimits]]
+name = "LOOKUPS"
+namespace_id = "1001"
+
+  [ratelimits.simple]
+  limit = 30
+  period = 60
+
 [[d1_databases]]
 binding = "DB"
 database_name = "wayfinder"

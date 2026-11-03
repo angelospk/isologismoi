@@ -11,6 +11,7 @@ export { GemiDispatcher };
 interface Env {
   DB: D1Database;
   DISPATCHER: DurableObjectNamespace<GemiDispatcher>;
+  LOOKUPS: RateLimit;
   GEMI_API_KEY: string;
   GEMI_BASE: string;
   REFRESH_AFTER_DAYS: string;
@@ -103,6 +104,12 @@ export default {
 
     if (path === "/api/health") {
       return json({ ok: true, attribution: ATTRIBUTION });
+    }
+
+    // Lookups below can queue work on the one global GEMI budget: cap each client.
+    const client = request.headers.get("cf-connecting-ip") ?? "unknown";
+    if (!(await env.LOOKUPS.limit({ key: client })).success) {
+      return json({ error: "rate_limited" }, { status: 429, headers: { "retry-after": "60" } });
     }
 
     if (path === "/api/queue") {
