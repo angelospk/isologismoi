@@ -1,0 +1,22 @@
+{
+ "status": "unparseable",
+ "reason": "no_recognised_line_items",
+ "figures": {},
+ "ar_gemi": "122033807000",
+ "afm": null,
+ "fiscal_year": 2020,
+ "unit_multiplier": 1000,
+ "currency": "EUR",
+ "notes": [
+  "turnover: 1 amounts for 2 year columns",
+  "equity: 3 amounts for 2 year columns",
+  "total_liabilities: 3 amounts for 2 year columns",
+  "turnover: 1 amounts for 2 year columns",
+  "pre_tax_profit: 1 amounts for 2 year columns",
+  "pre_tax_profit: 1 amounts for 2 year columns",
+  "total_assets 108956960.0 != total_equity_and_liabilities 94761570.0",
+  "ebitda: not derived, missing pre_tax_profit"
+ ],
+ "source_element_id": "4521789",
+ "source_registered": "2024-10-17"
+}

@@ -1,0 +1,62 @@
+{
+ "status": "partial",
+ "reason": null,
+ "ar_gemi": "011282836000",
+ "afm": "094378057",
+ "fiscal_year": 2021,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "figures": {
+  "equity": {
+   "value": 1182619.86,
+   "page": 5,
+   "bbox": [
+    353.29,
+    276.84,
+    394.4,
+    284.52
+   ],
+   "page_width": 595.22,
+   "page_height": 842,
+   "label_matched": "Σύνολο καθαρής θέσης",
+   "source": "extracted"
+  },
+  "turnover": {
+   "value": 846014.14,
+   "page": 6,
+   "bbox": [
+    389.4,
+    60.33,
+    434.8,
+    70.29
+   ],
+   "page_width": 595.22,
+   "page_height": 842,
+   "label_matched": "Κύκλος εργασιών (καθαρός)",
+   "source": "extracted"
+  },
+  "ebit": {
+   "value": 65984.84,
+   "page": 6,
+   "bbox": [
+    394.32,
+    243.69,
+    434.9,
+    253.65
+   ],
+   "page_width": 595.22,
+   "page_height": 842,
+   "label_matched": "Αποτελέσματα προ τόκων και φόρων",
+   "source": "extracted"
+  }
+ },
+ "missing": [
+  "net_profit",
+  "total_assets"
+ ],
+ "notes": [
+  "ebitda: not derived, missing pre_tax_profit,interest,depreciation"
+ ],
+ "source_element_id": "3294275",
+ "source_registered": "2022-11-16"
+}
