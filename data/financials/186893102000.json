@@ -1,0 +1,20 @@
+{
+ "status": "unparseable",
+ "reason": "no_recognised_line_items",
+ "figures": {},
+ "ar_gemi": "186893102000",
+ "afm": null,
+ "fiscal_year": 2025,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "notes": [
+  "total_assets: 1 amounts for 2 year columns",
+  "equity: 1 amounts for 2 year columns",
+  "total_equity_and_liabilities: 1 amounts for 2 year columns",
+  "pre_tax_profit: 1 amounts for 2 year columns",
+  "net_profit: 1 amounts for 2 year columns",
+  "ebitda: not derived, missing pre_tax_profit,interest,depreciation"
+ ],
+ "source_element_id": "6336765",
+ "source_registered": "2026-11-12"
+}

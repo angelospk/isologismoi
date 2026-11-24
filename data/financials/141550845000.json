@@ -1,0 +1,95 @@
+{
+ "status": "parsed",
+ "reason": null,
+ "ar_gemi": "141550845000",
+ "afm": "800807910",
+ "fiscal_year": 2025,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "figures": {
+  "total_assets": {
+   "value": 653643.86,
+   "page": 2,
+   "bbox": [
+    341.64,
+    424.16,
+    392.03,
+    435.2
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Σύνολο ενεργητικού",
+   "source": "extracted"
+  },
+  "equity": {
+   "value": 222987.83,
+   "page": 2,
+   "bbox": [
+    341.88,
+    466.4,
+    392.11,
+    477.44
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Κεφάλαια και αποθεματικά",
+   "source": "extracted"
+  },
+  "turnover": {
+   "value": 373879.24,
+   "page": 2,
+   "bbox": [
+    367.9,
+    620.6,
+    418.36,
+    631.64
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Κύκλος εργασιών (καθαρός)",
+   "source": "extracted"
+  },
+  "pre_tax_profit": {
+   "value": 50359.49,
+   "page": 2,
+   "bbox": [
+    373.56,
+    751.04,
+    418.35,
+    762.08
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Αποτελέσματα προ φόρων",
+   "source": "extracted"
+  },
+  "net_profit": {
+   "value": 40323.12,
+   "page": 3,
+   "bbox": [
+    373.59,
+    104.6,
+    418.4,
+    115.64
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Αποτέλεσμα περιόδου μετά από φόρους",
+   "source": "extracted"
+  },
+  "ebitda": {
+   "value": 95960.17,
+   "source": "derived",
+   "derived_from": [
+    "pre_tax_profit",
+    "interest",
+    "depreciation"
+   ],
+   "formula": "pre_tax_profit - interest - depreciation"
+  }
+ },
+ "missing": [],
+ "notes": [],
+ "source_element_id": "6251578",
+ "source_registered": "2026-10-16"
+}

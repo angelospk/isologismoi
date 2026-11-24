@@ -1,0 +1,75 @@
+{
+ "status": "partial",
+ "reason": null,
+ "ar_gemi": "000284401000",
+ "afm": "094399329",
+ "fiscal_year": 2025,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "figures": {
+  "turnover": {
+   "value": 207145191.0,
+   "page": 10,
+   "bbox": [
+    322.49,
+    177.61,
+    381.71,
+    188.65
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Πωλήσεις",
+   "source": "extracted"
+  },
+  "pre_tax_profit": {
+   "value": 29642208.0,
+   "page": 10,
+   "bbox": [
+    328.01,
+    340.24,
+    381.8,
+    351.28
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Κέρδη προ φόρων",
+   "source": "extracted"
+  },
+  "total_assets": {
+   "value": 315577708.0,
+   "page": 12,
+   "bbox": [
+    395.11,
+    336.55,
+    443.84,
+    345.55
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Σύνολο Ενεργητικού",
+   "source": "extracted"
+  },
+  "equity": {
+   "value": 226515257.0,
+   "page": 12,
+   "bbox": [
+    395.11,
+    436.51,
+    443.84,
+    445.51
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Σύνολο Ιδίων Κεφαλαίων",
+   "source": "extracted"
+  }
+ },
+ "missing": [
+  "net_profit"
+ ],
+ "notes": [
+  "ebitda: not derived, interest/depreciation not shown as expenses"
+ ],
+ "source_element_id": "6264560",
+ "source_registered": "2026-10-21"
+}

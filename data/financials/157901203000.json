@@ -1,0 +1,16 @@
+{
+ "status": "unparseable",
+ "reason": "no_recognised_line_items",
+ "figures": {},
+ "ar_gemi": "157901203000",
+ "afm": "067765330",
+ "fiscal_year": 2025,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "notes": [
+  "total_assets 51469.47 != total_equity_and_liabilities 37946.63",
+  "ebitda: not derived, missing pre_tax_profit,interest,depreciation"
+ ],
+ "source_element_id": "6318754",
+ "source_registered": "2026-11-02"
+}
