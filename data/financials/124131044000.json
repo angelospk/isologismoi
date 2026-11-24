@@ -1,0 +1,49 @@
+{
+ "status": "partial",
+ "reason": null,
+ "ar_gemi": "124131044000",
+ "afm": "094113590",
+ "fiscal_year": 2025,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "figures": {
+  "total_assets": {
+   "value": 19838252.25,
+   "page": 14,
+   "bbox": [
+    226.73,
+    562.27,
+    290.84,
+    573.31
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Σύνολο Ενεργητικού",
+   "source": "extracted"
+  },
+  "equity": {
+   "value": 17969497.25,
+   "page": 14,
+   "bbox": [
+    226.73,
+    682.78,
+    290.84,
+    693.82
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Ιδία Κεφάλαια",
+   "source": "extracted"
+  }
+ },
+ "missing": [
+  "turnover",
+  "net_profit"
+ ],
+ "notes": [
+  "depreciation: no year header seen before this row",
+  "ebitda: not derived, missing pre_tax_profit,interest"
+ ],
+ "source_element_id": "6164473",
+ "source_registered": "2026-09-07"
+}
