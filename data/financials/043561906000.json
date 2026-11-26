@@ -1,0 +1,87 @@
+{
+ "status": "parsed",
+ "reason": null,
+ "ar_gemi": "043561906000",
+ "afm": null,
+ "fiscal_year": 2024,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "figures": {
+  "total_assets": {
+   "value": 124097.12,
+   "page": 2,
+   "bbox": [
+    354.21,
+    370.29,
+    393.11,
+    378.09
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Σύνολο ενεργητικού € €",
+   "source": "extracted"
+  },
+  "equity": {
+   "value": 83430.94,
+   "page": 2,
+   "bbox": [
+    357.01,
+    415.65,
+    391.57,
+    423.45
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Κεφάλαια και αποθεματικά € €",
+   "source": "extracted"
+  },
+  "turnover": {
+   "value": 0.0,
+   "page": 3,
+   "bbox": [
+    372.01,
+    187.73,
+    389.06,
+    196.49
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Κύκλος εργασιών (καθαρός) € €",
+   "source": "extracted"
+  },
+  "pre_tax_profit": {
+   "value": -7574.25,
+   "page": 3,
+   "bbox": [
+    361.9,
+    378.89,
+    399.04,
+    387.65
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Αποτέλεσμα προ φόρων € €",
+   "source": "extracted"
+  },
+  "net_profit": {
+   "value": -8374.25,
+   "page": 3,
+   "bbox": [
+    361.95,
+    421.37,
+    399.04,
+    430.13
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Αποτέλεσμα περιόδου μετά από φόρους € €",
+   "source": "extracted"
+  }
+ },
+ "missing": [],
+ "notes": [
+  "ebitda: not derived, interest/depreciation not shown as expenses"
+ ],
+ "source_element_id": "5545627",
+ "source_registered": "2025-09-29"
+}
