@@ -1,0 +1,64 @@
+{
+ "status": "partial",
+ "reason": null,
+ "ar_gemi": "123826501000",
+ "afm": "800461899",
+ "fiscal_year": 2025,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "figures": {
+  "total_assets": {
+   "value": 1548774.94,
+   "page": 4,
+   "bbox": [
+    357.96,
+    548.55,
+    410.58,
+    558.51
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Σύνολο Ενεργητικού",
+   "source": "extracted"
+  },
+  "equity": {
+   "value": 1105499.77,
+   "page": 5,
+   "bbox": [
+    357.48,
+    264.87,
+    410.1,
+    274.83
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Σύνολο καθαρής θέσης",
+   "source": "extracted"
+  },
+  "pre_tax_profit": {
+   "value": 382208.38,
+   "page": 6,
+   "bbox": [
+    365.04,
+    404.91,
+    410.1,
+    414.87
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Αποτέλεσμα προ φόρων",
+   "source": "extracted"
+  }
+ },
+ "missing": [
+  "turnover",
+  "net_profit"
+ ],
+ "notes": [
+  "depreciation: 3 amounts for 2 year columns",
+  "depreciation: 3 amounts for 2 year columns",
+  "ebitda: not derived, interest/depreciation not shown as expenses"
+ ],
+ "source_element_id": "6082935",
+ "source_registered": "2026-06-15"
+}

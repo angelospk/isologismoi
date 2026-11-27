@@ -1,0 +1,15 @@
+{
+ "status": "unparseable",
+ "reason": "no_text_layer",
+ "figures": {},
+ "ar_gemi": "158065916000",
+ "afm": null,
+ "fiscal_year": 2026,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "notes": [
+  "no year column header found in the document"
+ ],
+ "source_element_id": "6246425",
+ "source_registered": "2026-10-14"
+}
