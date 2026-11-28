@@ -1,0 +1,15 @@
+{
+ "status": "unparseable",
+ "reason": "no_financial_table",
+ "figures": {},
+ "ar_gemi": "176476427000",
+ "afm": "802444813",
+ "fiscal_year": 2025,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "notes": [
+  "no year column header found in the document"
+ ],
+ "source_element_id": "5764414",
+ "source_registered": "2025-12-17"
+}

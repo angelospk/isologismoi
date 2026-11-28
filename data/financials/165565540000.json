@@ -1,0 +1,109 @@
+{
+ "status": "parsed",
+ "reason": null,
+ "ar_gemi": "165565540000",
+ "afm": "801907273",
+ "fiscal_year": 2025,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "figures": {
+  "total_assets": {
+   "value": 29480.58,
+   "page": 2,
+   "bbox": [
+    337.29,
+    611.33,
+    385.59,
+    621.29
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Σύνολο ενεργητικού",
+   "source": "extracted"
+  },
+  "equity": {
+   "value": 2424.85,
+   "page": 3,
+   "bbox": [
+    343.2,
+    269.33,
+    385.59,
+    279.29
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Σύνολο καθαρής θέσης",
+   "source": "extracted"
+  },
+  "turnover": {
+   "value": 49531.67,
+   "page": 4,
+   "bbox": [
+    341.79,
+    180.77,
+    385.85,
+    190.73
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Κύκλος εργασιών (καθαρός)",
+   "source": "extracted"
+  },
+  "ebit": {
+   "value": 4681.93,
+   "page": 4,
+   "bbox": [
+    343.21,
+    355.97,
+    385.6,
+    365.93
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Αποτελέσματα προ τόκων και φόρων",
+   "source": "extracted"
+  },
+  "pre_tax_profit": {
+   "value": 4335.99,
+   "page": 4,
+   "bbox": [
+    343.23,
+    398.93,
+    385.55,
+    408.89
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Αποτέλεσμα προ φόρων",
+   "source": "extracted"
+  },
+  "net_profit": {
+   "value": 4335.99,
+   "page": 4,
+   "bbox": [
+    343.25,
+    427.97,
+    385.57,
+    437.93
+   ],
+   "page_width": 595.32,
+   "page_height": 841.92,
+   "label_matched": "Αποτέλεσμα περιόδου μετά από φόρους",
+   "source": "extracted"
+  },
+  "ebitda": {
+   "value": 4681.93,
+   "source": "derived",
+   "derived_from": [
+    "pre_tax_profit",
+    "interest",
+    "depreciation"
+   ],
+   "formula": "pre_tax_profit - interest - depreciation"
+  }
+ },
+ "missing": [],
+ "notes": [],
+ "source_element_id": "6183482",
+ "source_registered": "2026-09-15"
+}

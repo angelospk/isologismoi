@@ -1,0 +1,38 @@
+{
+ "status": "partial",
+ "reason": null,
+ "ar_gemi": "165492227000",
+ "afm": null,
+ "fiscal_year": 2025,
+ "unit_multiplier": 1,
+ "currency": "EUR",
+ "figures": {
+  "turnover": {
+   "value": 264048.77,
+   "page": 3,
+   "bbox": [
+    318.65,
+    117.95,
+    359.67,
+    126.95
+   ],
+   "page_width": 841.68,
+   "page_height": 595.2,
+   "label_matched": "ΚΥΚΛΟΣ ΕΡΓΑΣΙΩΝ",
+   "source": "extracted"
+  }
+ },
+ "missing": [
+  "net_profit",
+  "total_assets",
+  "equity"
+ ],
+ "notes": [
+  "total_assets: no year header seen before this row",
+  "total_liabilities: no year header seen before this row",
+  "depreciation: 1 amounts for 2 year columns",
+  "ebitda: not derived, missing pre_tax_profit,depreciation"
+ ],
+ "source_element_id": "6196825",
+ "source_registered": "2026-09-22"
+}
